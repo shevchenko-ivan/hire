@@ -5,13 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ivan Shevchenko — Senior Product Designer · Enterprise SaaS &amp; Design Systems</title>
   <meta name="description" content="Senior Product Designer & DS Lead. Built ERM systems for top-5 Ukrainian retailer (-34% errors). Now leading B2B design system at TemaBit." />
+  <meta name="theme-color" content="#37431d" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ivan Shevchenko — Senior Product Designer · Enterprise SaaS &amp; Design Systems" />
+  <meta property="og:description" content="Senior Product Designer &amp; DS Lead. Built ERM systems for top-5 Ukrainian retailer (-34% errors). Now leading B2B design system at TemaBit." />
+  <meta property="og:image" content="https://shevchenko-ivan.github.io/hire/assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles/main.css?v=fv2" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Schibsted+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css?v=b6e23ff1" />
   <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
 
   <header class="nav">
     <div class="wrap nav__inner">
@@ -23,7 +31,7 @@
         <div class="nav__meta">
           <span class="nav__status"><span class="nav__dot"></span><span data-i18n="status.openLead">Open to senior &amp; lead roles · remote / Valencia</span></span>
         </div>
-        <button class="lang-switch" type="button" aria-label="Language">
+        <button class="lang-switch" type="button" aria-label="Українська версія">
           <span class="lang-switch__opt" data-lang="en">EN</span>
           <span class="lang-switch__opt" data-lang="ua">UA</span>
         </button>
@@ -31,9 +39,8 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" class="sheet">
     <section class="hero wrap">
-      <span class="pill hero__kicker" data-i18n="hero.ft-saas.kicker">Full-time · Enterprise SaaS &amp; design systems</span>
       <h1 class="hero__title" data-i18n="hero.ft-saas.title">Senior Product Designer turning <em>enterprise complexity</em> into shipped product.</h1>
       <p class="hero__lede">
         7+ years on enterprise B2B at top-5 Ukrainian retailer Fozzy Group. Designed a 9-module ERM platform
@@ -49,21 +56,20 @@
         <div class="fact"><div class="fact__label" data-i18n="fact.role">Role</div><div class="fact__value">Senior PD · Lead-track</div></div>
         <div class="fact"><div class="fact__label" data-i18n="fact.years">Years in the craft</div><div class="fact__value">7+</div></div>
         <div class="fact"><div class="fact__label" data-i18n="fact.domain">Domain</div><div class="fact__value">B2B · Enterprise · DS</div></div>
-        <div class="fact"><div class="fact__label" data-i18n="fact.basedIn">Based in</div><div class="fact__value">Valencia, Spain 🇪🇸</div></div>
+        <div class="fact"><div class="fact__label" data-i18n="fact.basedIn">Based in</div><div class="fact__value">Valencia, Spain</div></div>
       </div>
     </section>
 
     <section id="work" class="section">
       <div class="wrap">
         <div class="section__head">
-          <div class="section__eyebrow" data-i18n="section.featuredWork">Featured work</div>
           <h2 class="section__title" data-i18n="sec.ft-saas.workTitle">Four cases that show the lead designer I am becoming.</h2>
           <p class="section__desc" data-i18n="sec.ft-saas.workDesc">Enterprise scope, multi-team coordination, design systems as products — not just deliverables. Each project below was led or co-led end-to-end.</p>
         </div>
 
         <div class="cases cases--featured">
           <a class="case" href="../cases/silpo-erm/">
-            <div class="case__thumb"><img src="../assets/cases/silpo-erm/cover.jpg" alt="Silpo ERM" loading="lazy"></div>
+            <div class="case__thumb"><img src="../assets/cases/silpo-erm/cover.webp" srcset="../assets/cases/silpo-erm/cover-800.webp 800w, ../assets/cases/silpo-erm/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1186" alt="Silpo ERM" loading="lazy" decoding="async"></div>
             <div class="case__meta"><span>2023 · Fozzy Group</span><span>Lead PD</span><span>Enterprise · 9 modules</span></div>
             <h3 class="case__title">Silpo ERM — centralised platform for an entire retailer</h3>
             <p class="case__sub">
@@ -74,7 +80,7 @@
             <div class="case__metrics">
               <div><span class="metric__value">−34%</span><span class="metric__label">Operational errors</span></div>
               <div><span class="metric__value">9</span><span class="metric__label">Modules shipped</span></div>
-              <div><span class="metric__value">Top-5</span><span class="metric__label">Ukrainian company</span></div>
+              <div><span class="metric__value metric__value--text">Top-5</span><span class="metric__label">Ukrainian company</span></div>
             </div>
           </a>
 
@@ -88,12 +94,12 @@
             </p>
             <div class="case__metrics">
               <div><span class="metric__value">4</span><span class="metric__label">B2B products served</span></div>
-              <div><span class="metric__value">Governance · ADR · Tokens</span><span class="metric__label">Foundations</span></div>
+              <div><span class="metric__value metric__value--text">Governance · ADR · Tokens</span><span class="metric__label">Foundations</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/silpo-design-system/">
-            <div class="case__thumb"><img src="../assets/cases/silpo-design-system/cover.jpg" alt="Silpo Design System" loading="lazy"></div>
+            <div class="case__thumb"><img src="../assets/cases/silpo-design-system/cover.webp" srcset="../assets/cases/silpo-design-system/cover-800.webp 800w, ../assets/cases/silpo-design-system/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="835" alt="Silpo Design System" loading="lazy" decoding="async"></div>
             <div class="case__meta"><span>2023 · Fozzy Group</span><span>Self-initiated</span></div>
             <h3 class="case__title">Silpo Design System — founded without a top-down mandate</h3>
             <p class="case__sub">
@@ -101,13 +107,13 @@
               RICE prioritisation, WCAG 2.1 AA from day one, three abstraction levels, Zeroheight + Storybook documentation, workshops for designers and engineers.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value">RICE · WCAG AA</span><span class="metric__label">Method</span></div>
-              <div><span class="metric__value">Web + Flutter</span><span class="metric__label">Platforms</span></div>
+              <div><span class="metric__value metric__value--text">RICE · WCAG AA</span><span class="metric__label">Method</span></div>
+              <div><span class="metric__value metric__value--text">Web + Flutter</span><span class="metric__label">Platforms</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/freight-genie/">
-            <div class="case__thumb"><img src="../assets/cases/freight-genie/cover.jpg" alt="Freight Genie" loading="lazy"></div>
+            <div class="case__thumb"><img src="../assets/cases/freight-genie/cover.webp" srcset="../assets/cases/freight-genie/cover-800.webp 800w, ../assets/cases/freight-genie/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1186" alt="Freight Genie" loading="lazy" decoding="async"></div>
             <div class="case__meta"><span>2024 · Upwork</span><span>★★★★★</span></div>
             <h3 class="case__title">Freight Genie — multi-role SaaS CRM</h3>
             <p class="case__sub">
@@ -115,7 +121,7 @@
             </p>
             <div class="case__metrics">
               <div><span class="metric__value">5★</span><span class="metric__label">Upwork rating</span></div>
-              <div><span class="metric__value">Multi-role · Workflows</span><span class="metric__label">Scope</span></div>
+              <div><span class="metric__value metric__value--text">Multi-role · Workflows</span><span class="metric__label">Scope</span></div>
             </div>
           </a>
         </div>
@@ -125,22 +131,18 @@
     <section id="about" class="section">
       <div class="wrap">
         <div class="section__head">
-          <div class="section__eyebrow" data-i18n="section.whatIBring">What I bring to a senior / lead role</div>
           <h2 class="section__title" data-i18n="sec.ft-saas.aboutTitle">Three areas I have skin in — not just opinions.</h2>
         </div>
         <div class="pillars">
           <div class="pillar">
-            <div class="pillar__num">01</div>
             <h3 class="pillar__title" data-i18n="pillar.leadWithoutTitle.title">Leading without the title</h3>
             <p class="pillar__body" data-i18n="pillar.body.leadWithoutTitle">I already coordinate designers, resolve cross-team conflicts and shape DS processes. The next step is formalising ownership and rituals — and that is exactly what I am building this year.</p>
           </div>
           <div class="pillar">
-            <div class="pillar__num">02</div>
             <h3 class="pillar__title" data-i18n="pillar.complexity.title">Enterprise complexity → simple UI</h3>
             <p class="pillar__body" data-i18n="pillar.body.complexity">Nine ERM modules, 4 B2B products, dozens of stakeholders. I translate business processes into interfaces that operators actually like using.</p>
           </div>
           <div class="pillar">
-            <div class="pillar__num">03</div>
             <h3 class="pillar__title" data-i18n="pillar.dsAsProduct.title">Design systems as products</h3>
             <p class="pillar__body" data-i18n="pillar.body.dsAsProduct">A DS is not a Figma library — it is a product with users, a backlog, a release cadence and a contribution model. That is how I treat it every day.</p>
           </div>
@@ -150,9 +152,7 @@
 
     <section class="section">
       <div class="wrap">
-        <div class="section__head">
-          <div class="section__eyebrow" data-i18n="section.testimonials">Testimonials</div>
-        </div>
+        <h2 class="sr-only" data-i18n="section.testimonials">Testimonials</h2>
         <blockquote class="quote">
           <p class="quote__text" data-i18n="quote.anna.short">“Ivan stood out as a specialist who deeply analyses the material and can clearly articulate his thoughts. He easily adapts to different tasks and his ideas demonstrate a clear logical connection.”</p>
           <p class="quote__cite" data-i18n="quote.anna.cite">Anna Ezhel · UX/UI Designer, ITEA course instructor</p>
@@ -163,7 +163,7 @@
     <section id="contact" class="contact">
       <div class="wrap">
         <h2 class="contact__title" data-i18n="contact.ft-saas.title">Looking for a <em>senior or lead designer</em>?</h2>
-        <p style="max-width: 50ch; color: rgba(250, 249, 246, 0.7);" data-i18n="contact.ft-saas.lede">I am open to senior and lead Product Designer roles — remote, or hybrid in Valencia. Drop a note and I will reply within a working day.</p>
+        <p class="contact__lede" data-i18n="contact.ft-saas.lede">I am open to senior and lead Product Designer roles — remote, or hybrid in Valencia. Drop a note and I will reply within a working day.</p>
         <div class="contact__row">
           <a class="contact__link" href="mailto:shevchenkoivan1951@gmail.com">shevchenkoivan1951@gmail.com</a>
           <a class="contact__link" href="https://www.linkedin.com/in/ivan--shevchenko/" target="_blank" rel="noopener" data-i18n="contact.linkLinkedIn">LinkedIn</a>
@@ -178,7 +178,7 @@
     <span><a href="../" data-i18n="foot.otherVariations">Other variations →</a></span>
   </footer>
 
-  <script src="../scripts/anim.js?v=anim4" defer></script>
-  <script src="../scripts/i18n.js?v=luch3"></script>
+  <script src="../scripts/anim.js?v=c6ee49bf" defer></script>
+  <script src="../scripts/i18n.js?v=60455df3" defer></script>
 </body>
 </html>
