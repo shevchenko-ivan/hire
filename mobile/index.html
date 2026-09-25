@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Schibsted+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles/main.css?v=b6e23ff1" />
+  <link rel="stylesheet" href="../styles/main.css?v=ce4e31c9" />
   <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -23,7 +23,7 @@
 
   <header class="nav">
     <div class="wrap nav__inner">
-      <a href="../" class="nav__brand">
+      <a href="../" class="nav__brand" data-home>
         <span class="nav__brand-mark">IS</span>
         <span>Ivan Shevchenko</span>
       </a>
@@ -31,9 +31,11 @@
         <div class="nav__meta">
           <span class="nav__status"><span class="nav__dot"></span><span data-i18n="status.openLead">Open to senior &amp; lead roles · remote / Valencia</span></span>
         </div>
-        <button class="lang-switch" type="button" aria-label="Українська версія">
+        <a class="nav__cta" href="#contact" data-i18n="nav.cta">Get in touch</a>
+        <button class="lang-switch" type="button">
           <span class="lang-switch__opt" data-lang="en">EN</span>
           <span class="lang-switch__opt" data-lang="ua">UA</span>
+          <span class="sr-only lang-switch__hint"> — Українська версія</span>
         </button>
       </div>
     </div>
@@ -41,21 +43,42 @@
 
   <main id="main" class="sheet">
     <section class="hero wrap">
+      <div class="hero__copy">
       <h1 class="hero__title" data-i18n="hero.ft-mob.title">A <em>mobile-aware</em> senior designer who can lead a system, not just ship a screen.</h1>
-      <p class="hero__lede">
+      <p class="hero__lede" data-i18n="hero.ft-mob.lede">
         Senior Product Designer with deep cross-platform DS experience. Founded the Silpo Design System covering web and the consumer Flutter app,
         and currently lead the BOS design system at TemaBit — where mobile patterns are treated as first-class citizens, not desktop afterthoughts.
       </p>
       <a class="hero__cta" href="#work" data-i18n="hero.cta.work">See selected work →</a>
       <a class="hero__cta-secondary" href="#about" data-i18n="hero.cta.aboutSecondary">or read about me</a>
+      </div>
+      <figure class="spec spec--mobile" aria-hidden="true">
+      <div class="spec__bar"><span class="spec__name">BottomSheet / Date</span><span class="spec__tag">iOS · Android · Flutter</span></div>
+      <div class="spec__tokens">
+        <span class="spec__swatch spec__swatch--ink" data-token="ink · #37431D"></span>
+        <span class="spec__swatch spec__swatch--lime" data-token="accent · #C8F24A"></span>
+        <span class="spec__swatch spec__swatch--sage" data-token="sage · #E0EAD2"></span>
+        <span class="spec__swatch spec__swatch--lav" data-token="lavender · #E7E7F7"></span>
+        <span class="spec__spacing"><i></i><i></i><i></i></span>
+      </div>
+      <div class="spec__phone">
+        <div class="spec__sheet">
+          <span class="spec__handle"></span>
+          <span class="spec__title">Delivery slot</span>
+          <div class="spec__slots"><span>10:00</span><span class="is-on">12:00</span><span>14:00</span><span>16:00</span></div>
+          <span class="spec__btn">Confirm</span>
+        </div>
+      </div>
+      <figcaption class="spec__metric"><strong>3</strong><span data-i18n="spec.m.levels">abstraction levels, one system for web + Flutter</span></figcaption>
+    </figure>
     </section>
 
     <section class="wrap">
       <div class="facts">
         <div class="fact"><div class="fact__label" data-i18n="fact.role">Role</div><div class="fact__value">Senior PD · Lead-track</div></div>
         <div class="fact"><div class="fact__label" data-i18n="fact.mobilePlatforms">Mobile platforms</div><div class="fact__value">iOS · Android · Flutter</div></div>
-        <div class="fact"><div class="fact__label" data-i18n="fact.specialty">Specialty</div><div class="fact__value">Mobile DS · Accessibility</div></div>
-        <div class="fact"><div class="fact__label" data-i18n="fact.basedIn">Based in</div><div class="fact__value">Valencia, Spain</div></div>
+        <div class="fact"><div class="fact__label" data-i18n="fact.specialty">Specialty</div><div class="fact__value" data-i18n="fact.val.mobileDS">Mobile DS · Accessibility</div></div>
+        <div class="fact"><div class="fact__label" data-i18n="fact.basedIn">Based in</div><div class="fact__value" data-i18n="fact.val.spain">Valencia, Spain</div></div>
       </div>
     </section>
 
@@ -63,7 +86,7 @@
       <div class="wrap">
         <div class="section__head">
           <h2 class="section__title" data-i18n="sec.ft-mob.workTitle">Four cases where mobile DS thinking made the difference.</h2>
-          <p class="section__desc">
+          <p class="section__desc" data-i18n="sec.ft-mob.workDesc">
             From a consumer Flutter app at Ukraine’s top-5 retailer to an indie music product of my own —
             mobile-first design, cross-platform systems and accessibility from day one.
           </p>
@@ -71,60 +94,60 @@
 
         <div class="cases cases--featured">
           <a class="case" href="../cases/silpo-design-system/">
-            <div class="case__thumb"><img src="../assets/cases/silpo-design-system/cover.webp" srcset="../assets/cases/silpo-design-system/cover-800.webp 800w, ../assets/cases/silpo-design-system/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="835" alt="Silpo Design System" loading="lazy" decoding="async"></div>
+            <div class="case__thumb"><img src="../assets/cases/silpo-design-system/cover.webp" srcset="../assets/cases/silpo-design-system/cover-800.webp 800w, ../assets/cases/silpo-design-system/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="835" alt="" loading="lazy" decoding="async"></div>
             <div class="case__meta"><span>2023 · Fozzy Group</span><span>Lead PD</span><span>Web + Flutter</span></div>
-            <h3 class="case__title">Silpo Design System — one system, two platforms</h3>
-            <p class="case__sub">
+            <h3 class="case__title" data-i18n="t.9ac63227">Silpo Design System — one system, two platforms</h3>
+            <p class="case__sub" data-i18n="t.575ee4a7">
               Founded the DS without a top-down mandate. Three abstraction levels: patterns (max flexibility),
               components + patterns (cross-platform), full code-reuse (per-platform). Web shopped Bootstrap-style;
               Flutter shopped native-feel. One language unified them.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value">3</span><span class="metric__label">Abstraction levels</span></div>
-              <div><span class="metric__value metric__value--text">WCAG AA</span><span class="metric__label">From day one</span></div>
-              <div><span class="metric__value metric__value--text">RICE</span><span class="metric__label">Prioritisation</span></div>
+              <div><span class="metric__value">3</span><span class="metric__label" data-i18n="t.09fceba8">Abstraction levels</span></div>
+              <div><span class="metric__value metric__value--text">WCAG AA</span><span class="metric__label" data-i18n="t.08bc3591">From day one</span></div>
+              <div><span class="metric__value metric__value--text">RICE</span><span class="metric__label" data-i18n="t.3eb38c39">Prioritisation</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/silpo-app/">
-            <div class="case__thumb"><img src="../assets/cases/silpo-app/cover.webp" srcset="../assets/cases/silpo-app/cover-800.webp 800w, ../assets/cases/silpo-app/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1112" alt="Silpo App" loading="lazy" decoding="async"></div>
+            <div class="case__thumb"><img src="../assets/cases/silpo-app/cover.webp" srcset="../assets/cases/silpo-app/cover-800.webp 800w, ../assets/cases/silpo-app/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1112" alt="" loading="lazy" decoding="async"></div>
             <div class="case__meta"><span>2023 · Fozzy Group</span><span>Consumer · Flutter</span></div>
-            <h3 class="case__title">Silpo App — the consumer side of the system</h3>
-            <p class="case__sub">
+            <h3 class="case__title" data-i18n="t.c0124c48">Silpo App — the consumer side of the system</h3>
+            <p class="case__sub" data-i18n="t.0da8500f">
               The app that put the DS to the test. Loyalty card, scan-and-shop, store locator and bonuses —
               all on Flutter, all accessible, all consistent with the web counterpart.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value metric__value--text">Flutter</span><span class="metric__label">Framework</span></div>
-              <div><span class="metric__value metric__value--text">Top-5</span><span class="metric__label">Ukrainian retailer</span></div>
+              <div><span class="metric__value metric__value--text">Flutter</span><span class="metric__label" data-i18n="t.07782c22">Framework</span></div>
+              <div><span class="metric__value metric__value--text" data-i18n="t.794efed3">Top-5</span><span class="metric__label" data-i18n="t.396acece">Ukrainian retailer</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/bos-design-system/">
-            <div class="case__thumb case__thumb--placeholder case__thumb--bos">BOS</div>
-            <div class="case__meta"><span>2026 · TemaBit</span><span>Lead Designer</span></div>
-            <h3 class="case__title">BOS DS — mobile patterns inside an enterprise system</h3>
-            <p class="case__sub">
+            <div class="case__thumb case__thumb--art"><img src="../assets/cases/bos-design-system/anatomy.svg" alt="" width="800" height="500" loading="lazy" decoding="async"></div>
+            <div class="case__meta"><span>2026 · TemaBit</span><span data-i18n="t.dc4a0d6a">Lead Designer</span></div>
+            <h3 class="case__title" data-i18n="t.74c847d0">BOS DS — mobile patterns inside an enterprise system</h3>
+            <p class="case__sub" data-i18n="t.6cb1f8e6">
               Designed mobile drawer, mobile navigation, mobile empty states and calendar bottom-sheets as first-class DS citizens —
               not stretched desktop screens. Governance, lifecycle, weekly readiness tracker, Storybook source-of-truth.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value metric__value--text">Mobile-first patterns</span><span class="metric__label">Approach</span></div>
-              <div><span class="metric__value metric__value--text">Storybook · ADR · Tokens</span><span class="metric__label">Foundations</span></div>
+              <div><span class="metric__value metric__value--text" data-i18n="t.918275a7">Mobile-first patterns</span><span class="metric__label" data-i18n="t.40a68b5d">Approach</span></div>
+              <div><span class="metric__value metric__value--text" data-i18n="t.7a59ed11">Storybook · ADR · Tokens</span><span class="metric__label" data-i18n="t.1145080a">Foundations</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/diez/">
-            <div class="case__thumb case__thumb--placeholder case__thumb--diez">Diez</div>
-            <div class="case__meta"><span>2026 · Personal MVP</span><span>Founder</span></div>
-            <h3 class="case__title">Diez — chord-app for guitar players</h3>
-            <p class="case__sub">
+            <div class="case__thumb case__thumb--art"><img src="../assets/cases/diez/chord.svg" alt="" width="800" height="500" loading="lazy" decoding="async"></div>
+            <div class="case__meta"><span data-i18n="t.cd29d9fe">2026 · Personal MVP</span><span data-i18n="t.ad5b1a22">Founder</span></div>
+            <h3 class="case__title" data-i18n="t.53f28d13">Diez — chord-app for guitar players</h3>
+            <p class="case__sub" data-i18n="t.4436277d">
               My own mobile-first product. Chord library, progression builder, monetisation modelling.
               Practising what I preach: indie product thinking, full ownership, design ↔ engineering.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value metric__value--text">MVP · Q2 2026</span><span class="metric__label">Stage</span></div>
-              <div><span class="metric__value metric__value--text">Next.js · Mobile-first</span><span class="metric__label">Stack</span></div>
+              <div><span class="metric__value metric__value--text">MVP · Q2 2026</span><span class="metric__label" data-i18n="t.64c6da24">Stage</span></div>
+              <div><span class="metric__value metric__value--text">Next.js · Mobile-first</span><span class="metric__label" data-i18n="t.2187e102">Stack</span></div>
             </div>
           </a>
         </div>
@@ -146,7 +169,7 @@
             <p class="pillar__body" data-i18n="pillar.body.crossPlatformThinking">I think in shared patterns first, platform deltas second. Material + HIG are starting points, not gospel. Native is the default; custom is a deliberate choice.</p>
           </div>
           <div class="pillar">
-            <h3 class="pillar__title">Lead role + hands-on delivery</h3>
+            <h3 class="pillar__title" data-i18n="pillar.leadHandsOn.title">Lead role + hands-on delivery</h3>
             <p class="pillar__body" data-i18n="pillar.body.leadHandsOn">I run cross-team rituals, write ADRs and shape governance — and I still ship pixels. A lead who has not opened Figma this quarter is not a lead I want to be.</p>
           </div>
         </div>
@@ -178,10 +201,9 @@
 
   <footer class="wrap foot">
     <span data-i18n="foot.copy">© Ivan Shevchenko · Senior Product Designer</span>
-    <span><a href="../" data-i18n="foot.otherVariations">Other variations →</a></span>
   </footer>
 
-  <script src="../scripts/anim.js?v=c6ee49bf" defer></script>
-  <script src="../scripts/i18n.js?v=60455df3" defer></script>
+  <script src="../scripts/anim.js?v=e52e3bde" defer></script>
+  <script src="../scripts/i18n.js?v=14997227" defer></script>
 </body>
 </html>

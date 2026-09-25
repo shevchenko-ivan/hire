@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Schibsted+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles/main.css?v=b6e23ff1" />
+  <link rel="stylesheet" href="../../styles/main.css?v=ce4e31c9" />
   <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -23,15 +23,17 @@
 
   <header class="nav">
     <div class="wrap nav__inner">
-      <a href="../../" class="nav__brand">
+      <a href="../../" class="nav__brand" data-home>
         <span class="nav__brand-mark">IS</span>
         <span>Ivan Shevchenko</span>
       </a>
       <div class="nav__right">
-        <a href="../../" class="nav__meta nav__back" data-i18n="nav.allVariations">← All variations</a>
-        <button class="lang-switch" type="button" aria-label="Українська версія">
+        <a href="../../" class="nav__meta nav__back" data-home data-i18n="nav.back">← Portfolio</a>
+        <a class="nav__cta" href="#contact" data-i18n="nav.cta">Get in touch</a>
+        <button class="lang-switch" type="button">
           <span class="lang-switch__opt" data-lang="en">EN</span>
           <span class="lang-switch__opt" data-lang="ua">UA</span>
+          <span class="sr-only lang-switch__hint"> — Українська версія</span>
         </button>
       </div>
     </div>
@@ -40,7 +42,7 @@
   <main id="main" class="sheet">
     <section class="case-hero wrap">
       <div class="case-hero__meta">
-        <span>2026</span><span>TemaBit · Fozzy Group</span><span>Lead Designer</span><span>Active</span>
+        <span>2026</span><span>TemaBit · Fozzy Group</span><span data-i18n="t.dc4a0d6a">Lead Designer</span><span data-i18n="t.4d3d769b">Active</span>
       </div>
       <h1 class="case-hero__title" data-i18n="case.bos.title">BOS Design System — the DS behind a B2B platform.</h1>
       <p class="case-hero__sub" data-i18n="case.bos.sub">
@@ -50,7 +52,7 @@
 
     <section class="case-cover">
       <div class="wrap">
-        <div class="case-cover__inner case-cover__inner--placeholder case-cover__inner--bos">BOS</div>
+        <div class="case-cover__inner case-cover__inner--art"><img src="../../assets/cases/bos-design-system/anatomy.svg" alt="BOS button component anatomy: padding, height and token call-outs for colour, radius and type, plus default, hover and disabled states" width="800" height="500" fetchpriority="high"></div>
       </div>
     </section>
 
@@ -145,23 +147,23 @@
         <div class="related">
           <a class="related__card" href="../silpo-design-system/">
             <div class="related__kicker">Cross-platform DS</div>
-            <div class="related__title">Silpo Design System — web + Flutter</div>
+            <div class="related__title" data-i18n="t.b6bec687">Silpo Design System — web + Flutter</div>
           </a>
           <a class="related__card" href="../silpo-erm/">
-            <div class="related__kicker">Enterprise · 9 modules</div>
-            <div class="related__title">Silpo ERM — −34% operational errors</div>
+            <div class="related__kicker" data-i18n="t.7c074998">Enterprise · 9 modules</div>
+            <div class="related__title" data-i18n="t.21c3a7a8">Silpo ERM — −34% operational errors</div>
           </a>
         </div>
       </section>
     </div>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="wrap">
         <h2 class="contact__title" data-i18n="contact.bos.title">Need a <em>DS lead</em> who treats it as a product?</h2>
         <p class="contact__lede" data-i18n="contact.brief.bos">Drop a brief. I’ll tell you whether your DS needs more components or more governance.</p>
         <div class="contact__row">
           <a class="contact__link" href="mailto:shevchenkoivan1951@gmail.com" data-i18n="contact.linkPing">shevchenkoivan1951@gmail.com</a>
-          <a class="contact__link" href="../../" data-i18n="contact.backToPortfolio">← Back to portfolio</a>
+          <a class="contact__link" href="../../" data-home data-i18n="contact.backToPortfolio">← Back to portfolio</a>
         </div>
       </div>
     </section>
@@ -169,10 +171,9 @@
 
   <footer class="wrap foot">
     <span data-i18n="foot.copy">© Ivan Shevchenko · Senior Product Designer</span>
-    <span><a href="../../" data-i18n="foot.otherVariations">Other variations →</a></span>
   </footer>
 
-  <script src="../../scripts/anim.js?v=c6ee49bf" defer></script>
-  <script src="../../scripts/i18n.js?v=60455df3" defer></script>
+  <script src="../../scripts/anim.js?v=e52e3bde" defer></script>
+  <script src="../../scripts/i18n.js?v=14997227" defer></script>
 </body>
 </html>

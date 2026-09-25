@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Schibsted+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles/main.css?v=b6e23ff1" />
+  <link rel="stylesheet" href="../styles/main.css?v=ce4e31c9" />
   <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -23,7 +23,7 @@
 
   <header class="nav">
     <div class="wrap nav__inner">
-      <a href="../" class="nav__brand">
+      <a href="../" class="nav__brand" data-home>
         <span class="nav__brand-mark">IS</span>
         <span>Ivan Shevchenko</span>
       </a>
@@ -31,9 +31,11 @@
         <div class="nav__meta">
           <span class="nav__status"><span class="nav__dot"></span><span data-i18n="status.openLead">Open to senior &amp; lead roles · remote / Valencia</span></span>
         </div>
-        <button class="lang-switch" type="button" aria-label="Українська версія">
+        <a class="nav__cta" href="#contact" data-i18n="nav.cta">Get in touch</a>
+        <button class="lang-switch" type="button">
           <span class="lang-switch__opt" data-lang="en">EN</span>
           <span class="lang-switch__opt" data-lang="ua">UA</span>
+          <span class="sr-only lang-switch__hint"> — Українська версія</span>
         </button>
       </div>
     </div>
@@ -41,14 +43,33 @@
 
   <main id="main" class="sheet">
     <section class="hero wrap">
+      <div class="hero__copy">
       <h1 class="hero__title" data-i18n="hero.ft-saas.title">Senior Product Designer turning <em>enterprise complexity</em> into shipped product.</h1>
-      <p class="hero__lede">
+      <p class="hero__lede" data-i18n="hero.ft-saas.lede">
         7+ years on enterprise B2B at top-5 Ukrainian retailer Fozzy Group. Designed a 9-module ERM platform
         that cut operational errors by 34%, founded the Silpo Design System without a top-down mandate,
         and now lead the BOS design system for TemaBit’s B2B platform.
       </p>
       <a class="hero__cta" href="#work" data-i18n="hero.cta.work">See selected work →</a>
       <a class="hero__cta-secondary" href="#about" data-i18n="hero.cta.aboutSecondary">or read about me</a>
+      </div>
+      <figure class="spec" aria-hidden="true">
+      <div class="spec__bar"><span class="spec__name">DataGrid / Row</span><span class="spec__tag">tokens · states</span></div>
+      <div class="spec__tokens">
+        <span class="spec__swatch spec__swatch--ink" data-token="ink · #37431D"></span>
+        <span class="spec__swatch spec__swatch--lime" data-token="accent · #C8F24A"></span>
+        <span class="spec__swatch spec__swatch--sage" data-token="sage · #E0EAD2"></span>
+        <span class="spec__swatch spec__swatch--lav" data-token="lavender · #E7E7F7"></span>
+        <span class="spec__spacing"><i></i><i></i><i></i></span>
+      </div>
+      <div class="spec__grid">
+        <div class="spec__row spec__row--head"><span>Order</span><span>Route</span><span>Status</span><span></span></div>
+        <div class="spec__row"><span class="spec__id">#1042</span><span>Kyiv → Lviv</span><span class="spec__chip spec__chip--live">In transit</span><span class="spec__switch"></span></div>
+        <div class="spec__row spec__row--hover"><span class="spec__id">#1043</span><span>Odesa → Kyiv</span><span class="spec__chip">Delivered</span><span class="spec__switch spec__switch--on"></span></div>
+        <div class="spec__row"><span class="spec__id">#1044</span><span>Dnipro hub</span><span class="spec__chip spec__chip--warn">Needs review</span><span class="spec__switch"></span></div>
+      </div>
+      <figcaption class="spec__metric"><strong>−34%</strong><span data-i18n="spec.m.erm">operational errors after the ERM redesign</span></figcaption>
+    </figure>
     </section>
 
     <section class="wrap">
@@ -56,7 +77,7 @@
         <div class="fact"><div class="fact__label" data-i18n="fact.role">Role</div><div class="fact__value">Senior PD · Lead-track</div></div>
         <div class="fact"><div class="fact__label" data-i18n="fact.years">Years in the craft</div><div class="fact__value">7+</div></div>
         <div class="fact"><div class="fact__label" data-i18n="fact.domain">Domain</div><div class="fact__value">B2B · Enterprise · DS</div></div>
-        <div class="fact"><div class="fact__label" data-i18n="fact.basedIn">Based in</div><div class="fact__value">Valencia, Spain</div></div>
+        <div class="fact"><div class="fact__label" data-i18n="fact.basedIn">Based in</div><div class="fact__value" data-i18n="fact.val.spain">Valencia, Spain</div></div>
       </div>
     </section>
 
@@ -69,59 +90,59 @@
 
         <div class="cases cases--featured">
           <a class="case" href="../cases/silpo-erm/">
-            <div class="case__thumb"><img src="../assets/cases/silpo-erm/cover.webp" srcset="../assets/cases/silpo-erm/cover-800.webp 800w, ../assets/cases/silpo-erm/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1186" alt="Silpo ERM" loading="lazy" decoding="async"></div>
-            <div class="case__meta"><span>2023 · Fozzy Group</span><span>Lead PD</span><span>Enterprise · 9 modules</span></div>
-            <h3 class="case__title">Silpo ERM — centralised platform for an entire retailer</h3>
-            <p class="case__sub">
+            <div class="case__thumb"><img src="../assets/cases/silpo-erm/cover.webp" srcset="../assets/cases/silpo-erm/cover-800.webp 800w, ../assets/cases/silpo-erm/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1186" alt="" loading="lazy" decoding="async"></div>
+            <div class="case__meta"><span>2023 · Fozzy Group</span><span>Lead PD</span><span data-i18n="t.7c074998">Enterprise · 9 modules</span></div>
+            <h3 class="case__title" data-i18n="t.9f8cdc48">Silpo ERM — centralised platform for an entire retailer</h3>
+            <p class="case__sub" data-i18n="t.65ef5598">
               A single ERM coordinating marketers, accountants, couriers, BAs and POs across nine modules:
               E-commerce, GEO, Billing, CORE, Payments, Loyalty, CityRyder, DAMS, Profile.
               Stakeholder interviews → scenario maps → unified design system → delivery with engineering.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value">−34%</span><span class="metric__label">Operational errors</span></div>
-              <div><span class="metric__value">9</span><span class="metric__label">Modules shipped</span></div>
-              <div><span class="metric__value metric__value--text">Top-5</span><span class="metric__label">Ukrainian company</span></div>
+              <div><span class="metric__value">−34%</span><span class="metric__label" data-i18n="t.29f00d9f">Operational errors</span></div>
+              <div><span class="metric__value">9</span><span class="metric__label" data-i18n="t.f6f12757">Modules shipped</span></div>
+              <div><span class="metric__value metric__value--text" data-i18n="t.794efed3">Top-5</span><span class="metric__label" data-i18n="t.93ad9aaa">Ukrainian company</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/bos-design-system/">
-            <div class="case__thumb case__thumb--placeholder case__thumb--bos">BOS</div>
-            <div class="case__meta"><span>2026 · TemaBit</span><span>Lead Designer</span></div>
-            <h3 class="case__title">BOS Design System — B2B platform DS</h3>
-            <p class="case__sub">
+            <div class="case__thumb case__thumb--art"><img src="../assets/cases/bos-design-system/anatomy.svg" alt="" width="800" height="500" loading="lazy" decoding="async"></div>
+            <div class="case__meta"><span>2026 · TemaBit</span><span data-i18n="t.dc4a0d6a">Lead Designer</span></div>
+            <h3 class="case__title" data-i18n="t.5f754da2">BOS Design System — B2B platform DS</h3>
+            <p class="case__sub" data-i18n="t.e82f01ae">
               Active lead role on the design system serving BitCore IAM (production), BitSubscription, BitAuth and Bit Billing.
               Storybook as source of truth, weekly Confluence readiness tracker, Claude-Skills automations for cross-team rituals.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value">4</span><span class="metric__label">B2B products served</span></div>
-              <div><span class="metric__value metric__value--text">Governance · ADR · Tokens</span><span class="metric__label">Foundations</span></div>
+              <div><span class="metric__value">4</span><span class="metric__label" data-i18n="t.c152ef96">B2B products served</span></div>
+              <div><span class="metric__value metric__value--text" data-i18n="t.95d427aa">Governance · ADR · Tokens</span><span class="metric__label" data-i18n="t.1145080a">Foundations</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/silpo-design-system/">
-            <div class="case__thumb"><img src="../assets/cases/silpo-design-system/cover.webp" srcset="../assets/cases/silpo-design-system/cover-800.webp 800w, ../assets/cases/silpo-design-system/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="835" alt="Silpo Design System" loading="lazy" decoding="async"></div>
-            <div class="case__meta"><span>2023 · Fozzy Group</span><span>Self-initiated</span></div>
-            <h3 class="case__title">Silpo Design System — founded without a top-down mandate</h3>
-            <p class="case__sub">
+            <div class="case__thumb"><img src="../assets/cases/silpo-design-system/cover.webp" srcset="../assets/cases/silpo-design-system/cover-800.webp 800w, ../assets/cases/silpo-design-system/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="835" alt="" loading="lazy" decoding="async"></div>
+            <div class="case__meta"><span>2023 · Fozzy Group</span><span data-i18n="t.cc00d9dd">Self-initiated</span></div>
+            <h3 class="case__title" data-i18n="t.e0e3c35c">Silpo Design System — founded without a top-down mandate</h3>
+            <p class="case__sub" data-i18n="t.6ab794e1">
               Stakeholder interviews with CTO, Solution Architect, Flutter Architect and Head of Design.
               RICE prioritisation, WCAG 2.1 AA from day one, three abstraction levels, Zeroheight + Storybook documentation, workshops for designers and engineers.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value metric__value--text">RICE · WCAG AA</span><span class="metric__label">Method</span></div>
-              <div><span class="metric__value metric__value--text">Web + Flutter</span><span class="metric__label">Platforms</span></div>
+              <div><span class="metric__value metric__value--text">RICE · WCAG AA</span><span class="metric__label" data-i18n="t.4c3880bb">Method</span></div>
+              <div><span class="metric__value metric__value--text">Web + Flutter</span><span class="metric__label" data-i18n="t.ed49a36c">Platforms</span></div>
             </div>
           </a>
 
           <a class="case" href="../cases/freight-genie/">
-            <div class="case__thumb"><img src="../assets/cases/freight-genie/cover.webp" srcset="../assets/cases/freight-genie/cover-800.webp 800w, ../assets/cases/freight-genie/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1186" alt="Freight Genie" loading="lazy" decoding="async"></div>
-            <div class="case__meta"><span>2024 · Upwork</span><span>★★★★★</span></div>
-            <h3 class="case__title">Freight Genie — multi-role SaaS CRM</h3>
-            <p class="case__sub">
+            <div class="case__thumb"><img src="../assets/cases/freight-genie/cover.webp" srcset="../assets/cases/freight-genie/cover-800.webp 800w, ../assets/cases/freight-genie/cover.webp 1600w" sizes="(min-width: 1000px) 640px, 100vw" width="1600" height="1186" alt="" loading="lazy" decoding="async"></div>
+            <div class="case__meta"><span>2024 · Upwork</span></div>
+            <h3 class="case__title" data-i18n="t.7e8b2e16">Freight Genie — multi-role SaaS CRM</h3>
+            <p class="case__sub" data-i18n="t.55c24095">
               Independent validation that the enterprise skill-set scales beyond Fozzy: a five-star Upwork project for a freight logistics CRM with multi-role dashboards.
             </p>
             <div class="case__metrics">
-              <div><span class="metric__value">5★</span><span class="metric__label">Upwork rating</span></div>
-              <div><span class="metric__value metric__value--text">Multi-role · Workflows</span><span class="metric__label">Scope</span></div>
+              <div><span class="metric__value">5★</span><span class="metric__label" data-i18n="t.8eabbbe9">Upwork rating</span></div>
+              <div><span class="metric__value metric__value--text" data-i18n="t.96de087a">Multi-role · Workflows</span><span class="metric__label" data-i18n="t.5d113f20">Scope</span></div>
             </div>
           </a>
         </div>
@@ -175,10 +196,9 @@
 
   <footer class="wrap foot">
     <span data-i18n="foot.copy">© Ivan Shevchenko · Senior Product Designer</span>
-    <span><a href="../" data-i18n="foot.otherVariations">Other variations →</a></span>
   </footer>
 
-  <script src="../scripts/anim.js?v=c6ee49bf" defer></script>
-  <script src="../scripts/i18n.js?v=60455df3" defer></script>
+  <script src="../scripts/anim.js?v=e52e3bde" defer></script>
+  <script src="../scripts/i18n.js?v=14997227" defer></script>
 </body>
 </html>
