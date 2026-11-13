@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://shevchenko-ivan.github.io/hire/sitemap.xml
