@@ -5,18 +5,241 @@
   <link rel="canonical" href="https://shevchenko-ivan.github.io/hire/cases/freight-genie/" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Freight Genie — Case · Ivan Shevchenko</title>
-  <meta name="description" content="Freight Genie: a multi-role sales CRM for freight brokers — lead pipeline, tasks, documents, roles and permissions. A fixed-price Upwork project with a five-star review." />
+  <meta name="description" content="Freight Genie: a multi-role sales CRM for freight brokers — lead pipeline, tasks, documents, roles and permissions. An Upwork project with a five-star review." />
   <meta name="theme-color" content="#37431d" />
   <link rel="icon" href="../../assets/favicon.svg?v=2" type="image/svg+xml" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Freight Genie — Case · Ivan Shevchenko" />
-  <meta property="og:description" content="Freight Genie: a multi-role sales CRM for freight brokers — lead pipeline, tasks, documents, roles and permissions. A fixed-price Upwork project with a five-star review." />
+  <meta property="og:description" content="Freight Genie: a multi-role sales CRM for freight brokers — lead pipeline, tasks, documents, roles and permissions. An Upwork project with a five-star review." />
   <meta property="og:image" content="https://shevchenko-ivan.github.io/hire/assets/og.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="preload" href="../../assets/fonts/schibsted-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../../styles/main.css?v=91ed0b69" />
   <script>document.documentElement.classList.add('js')</script>
+  <style id="fg-css">
+/* Freight Genie case — scoped to .fg / .fgx. The product's own register: violet accent, slate grays, rounded cards, dot badges. */
+.sheet.fg{--f-ink:#15181e;--f-soft:#4e5563;--f-mute:#687080;--f-line:#e2e5ea;--f-line2:#cbd0d8;--f-bg:#f6f7f9;--f-bg2:#eef0f3;
+  --f-acc:#7a1ff2;--f-acc-t:#6614cc;--f-acc-bg:#f5f0ff;--f-acc-ln:#d7c2ff;background:#fff;overflow:hidden}
+.fgx{color:var(--f-ink);font-family:var(--font-sans,Inter,system-ui,sans-serif);font-size:16px;line-height:1.55}
+.fgx>section{padding:clamp(56px,8vw,104px) 0}
+.fgx>section.fg-band{background:var(--f-bg)}
+.fgx h1,.fgx h2,.fgx h3,.fgx h4{font-family:inherit;margin:0;letter-spacing:-.02em}
+.fgx p,.fgx figure,.fgx ul,.fgx ol,.fgx dl{margin:0}
+.fgx ul,.fgx ol{padding:0;list-style:none}
+.fg-eb{font-size:12.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--f-acc-t)}
+.fgx h1{font-weight:600;font-size:clamp(2.2rem,5.4vw,3.9rem);line-height:1.05;letter-spacing:-.03em;max-width:17ch;margin-top:18px}
+html[lang="uk"] .fgx h1{font-size:clamp(1.6rem,5vw,3.6rem)}
+.fgx h1,.fgx h2{overflow-wrap:break-word}
+.fgx h2{font-weight:600;font-size:clamp(1.75rem,3.6vw,2.6rem);line-height:1.12;max-width:22ch;margin-top:12px}
+.fg-lede{font-size:clamp(1.02rem,1.5vw,1.2rem);line-height:1.55;color:var(--f-soft);max-width:64ch;margin-top:18px!important}
+.fg-src{display:inline-block;margin-top:16px!important;font-size:13px;color:var(--f-mute);border:1px solid var(--f-line);border-radius:999px;padding:4px 12px;background:#fff}
+.fg-h3{font-weight:600!important;font-size:clamp(1.2rem,2vw,1.45rem);margin-top:clamp(44px,5.5vw,68px)!important}
+.fg-sub{color:var(--f-mute);font-size:15px;margin-top:6px!important;max-width:70ch}
+
+/* hero */
+.fg-hero{padding-top:clamp(40px,6vw,72px)!important}
+.fg-cover{margin-top:clamp(32px,5vw,56px)!important;border-radius:20px;overflow:hidden;background:var(--f-bg2)}
+.fg-cover img{display:block;width:100%;height:auto}
+.fg-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:20px!important}
+.fg-facts div{background:var(--f-bg);border-radius:14px;padding:16px 18px}
+.fg-facts dt{font-size:12.5px;color:var(--f-mute)}
+.fg-facts dd{margin:4px 0 0;font-weight:500}
+
+.fg-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(28px,5vw,72px);align-items:start}
+.fg-split--media{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}
+.fg-prose p{font-size:clamp(1rem,1.4vw,1.125rem);line-height:1.6;color:var(--f-soft)}
+.fg-prose p+p{margin-top:18px}
+
+/* small parts: badges, pills, callouts */
+.fg-badge{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:500;padding:2px 10px;border-radius:999px;white-space:nowrap}
+.fg-badge::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.fg-badge--neutral{background:var(--f-bg2);color:var(--f-soft)}.fg-badge--blue{background:#eef4ff;color:#2551c9}
+.fg-badge--amber{background:#fff6e5;color:#9a5800}.fg-badge--green{background:#eafbf2;color:#087443}
+.fg-band .fg-badge--neutral{background:#e6e9ee}
+.fg-new{display:inline-block;font-size:11.5px;font-weight:600;color:var(--f-acc-t);background:var(--f-acc-bg);border-radius:999px;padding:1px 8px;vertical-align:middle;white-space:nowrap}
+.fg-mvp{display:inline-block;font-size:11.5px;font-weight:500;color:var(--f-soft);border:1px dashed var(--f-line2);border-radius:999px;padding:0 8px;white-space:nowrap}
+.fg-callout{margin-top:20px!important;border-radius:12px;padding:14px 18px;font-size:15px;line-height:1.5;max-width:none}
+.fg-callout--info{background:#eef4ff;color:#2551c9}.fg-callout--warn{background:#fff6e5;color:#9a5800}
+.fg-k{font-size:12.5px;color:var(--f-mute);margin-top:16px!important}
+
+/* roles */
+.fg-roles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:clamp(32px,4vw,48px)}
+.fg-role{background:var(--f-bg);border-radius:16px;padding:22px}
+.fg-role h3{font-size:19px;font-weight:600}
+.fg-role__who{font-size:13.5px;color:var(--f-mute);margin-top:2px!important}
+.fg-role__spec{background:#fff;border-radius:10px;padding:12px 14px;margin-top:16px;font-size:14.5px;line-height:1.45}
+.fg-role__spec>b{display:block;font-size:12px;font-weight:600;color:var(--f-acc-t);margin-bottom:3px}
+.fg-pills{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.fg-pill{font-size:13px;font-weight:500;background:#fff;border:1px solid var(--f-line);border-radius:999px;padding:3px 11px}
+.fg-checks{margin-top:8px!important;display:grid;gap:8px}
+.fg-checks li{position:relative;padding-left:26px;font-size:14.5px;line-height:1.4}
+.fg-checks li::before{content:"";position:absolute;left:0;top:1px;width:17px;height:17px;border-radius:50%;background:#eafbf2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23087443' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 8.2l2.3 2.3 4.7-5'/%3E%3C/svg%3E") center/13px no-repeat}
+
+/* tables */
+.fg-table-wrap{margin-top:20px;border:1px solid var(--f-line);border-radius:14px;overflow:auto;background:#fff}
+.fg-mx{width:100%;border-collapse:collapse;font-size:15px}
+.fg-mx thead th{font-size:12.5px;font-weight:500;color:var(--f-mute);text-align:center;padding:12px 10px;background:var(--f-bg);border-bottom:1px solid var(--f-line)}
+.fg-mx thead th:first-child{text-align:left;padding-left:18px}
+.fg-mx tbody th{font-weight:400;text-align:left;padding:13px 10px 13px 18px}
+.fg-mx td{text-align:center;padding:10px;width:15%}
+.fg-mx tbody tr+tr>*{border-top:1px solid var(--f-line)}
+.fg-mx__g th{background:var(--f-bg);font-size:12.5px!important;font-weight:600!important;color:var(--f-soft);padding:8px 18px!important}
+.fg-y,.fg-n{display:inline-block;vertical-align:middle}
+.fg-y{width:22px;height:22px;border-radius:50%;background:#eafbf2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23087443' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 8.2l2.3 2.3 4.7-5'/%3E%3C/svg%3E") center/15px no-repeat}
+.fg-n{width:12px;height:2px;border-radius:1px;background:var(--f-line2)}
+.fg-own,.fg-view{font-size:12px;font-weight:500;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.fg-own{background:#fff6e5;color:#9a5800}.fg-view{background:#eef4ff;color:#2551c9}
+
+/* pipeline */
+.fg-track{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;margin-top:28px!important;position:relative}
+.fg-track::before{content:"";position:absolute;left:7%;right:7%;top:23px;height:2px;background:var(--f-line2)}
+.fg-stage{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
+.fg-stage__dot{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:16px;
+  background:color-mix(in srgb,var(--f-acc) calc(12% + var(--k)*14.5%),#fff);color:#fff;box-shadow:0 0 0 6px var(--f-bg)}
+.fg-stage:nth-child(-n+3) .fg-stage__dot{color:var(--f-acc-t)}
+.fg-stage__spec{font-size:14px;font-weight:500;line-height:1.3;min-height:2.6em;display:flex;align-items:center}
+.fg-lost{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:26px!important;font-size:15px}
+.fg-lost__x{width:32px;height:32px;border-radius:9px;background:#e6e9ee;display:inline-flex;align-items:center;justify-content:center;font-size:18px;color:var(--f-soft)}
+.fg-lost b{font-weight:500}.fg-lost>span:last-child{color:var(--f-soft)}
+.fg-chain{display:flex;align-items:stretch;gap:12px;margin-top:24px}
+.fg-formula{flex:1;background:#fff;border:1px solid var(--f-line);border-radius:16px;padding:22px}
+.fg-formula.is-last{background:var(--f-acc-bg);border-color:var(--f-acc-ln)}
+.fg-formula h4{font-size:17px;font-weight:600}
+.fg-formula code{display:block;margin-top:12px;font-family:inherit;font-weight:500;font-size:15.5px;color:var(--f-acc-t);background:#fff;border:1px solid var(--f-line);border-radius:9px;padding:9px 12px}
+.fg-formula p{margin-top:12px;font-size:13.5px;line-height:1.45;color:var(--f-mute)}
+.fg-chain__ar{align-self:center;color:var(--f-mute);font-size:20px}
+
+/* sitemap */
+.fg-site{margin-top:24px;background:var(--f-bg);border-radius:16px;padding:clamp(18px,3vw,28px)}
+.fg-site__root{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.fg-site__ar{color:var(--f-mute)}
+.fg-node__box{display:block;background:#fff;border:1px solid var(--f-line);border-radius:10px;padding:9px 13px;font-size:14.5px;line-height:1.3}
+.fg-node__box b{font-weight:500;margin-right:6px}
+.fg-node__box small{display:block;font-size:12.5px;color:var(--f-mute);margin-top:2px}
+.fg-node__box--root{border-color:var(--f-acc-ln);background:var(--f-acc-bg)}.fg-node__box--root b{font-weight:600}
+.fg-node.is-mvp>.fg-node__box{border-style:dashed;border-color:var(--f-line2);background:transparent}
+.fg-site__areas{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,1fr);gap:16px;margin-top:18px}
+.fg-area{background:#fff;border-radius:14px;padding:16px}
+.fg-area__h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:14px!important}
+.fg-area__h b{font-weight:600;font-size:16px}.fg-area__h span{font-size:13px;color:var(--f-mute)}
+.fg-area .fg-node__box{background:var(--f-bg)}
+.fg-tree{display:grid;gap:8px}
+.fg-tree--grid{grid-template-columns:repeat(4,minmax(0,1fr));align-items:start;gap:10px}
+.fg-node>.fg-tree{margin:8px 0 0 12px!important;padding-left:12px!important;border-left:1.5px solid var(--f-line2)}
+.fg-node>.fg-tree .fg-node__box{font-size:13.5px;padding:7px 10px;background:#fff}
+.fg-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px!important;font-size:13.5px;color:var(--f-soft)}
+.fg-legend span+.fg-mvp{margin-left:12px}
+
+/* object model */
+.fg-model{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:clamp(20px,3vw,36px);margin-top:24px;align-items:start}
+.fg-canvas{position:relative;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:1fr;gap:44px 20px;
+  grid-template-areas:"b b b b u u u u c c c c" "k k k k s s s s d d d d" "l l l a a a t t t f f f"}
+.fg-canvas__lines{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.fg-canvas__lines line{stroke:var(--f-line2);stroke-width:1.5;vector-effect:non-scaling-stroke}
+.fg-obj{position:relative;z-index:1;background:#fff;border:1px solid var(--f-line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;box-shadow:0 1px 2px rgba(21,24,30,.06)}
+.fg-obj b{font-weight:600;font-size:15px}
+.fg-obj b::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:8px;background:var(--c)}
+.fg-obj__at{font-size:12.5px;color:var(--f-soft);line-height:1.35}
+.fg-obj__rel{font-size:11.5px;color:var(--f-mute);margin-top:auto;padding-top:4px}
+.fg-obj--org,.fg-key--org{--c:#d7c2ff}.fg-obj--people,.fg-key--people{--c:#93b4ff}.fg-obj--work,.fg-key--work{--c:#7ddceb}.fg-obj--core,.fg-key--core{--c:var(--f-acc)}
+.fg-obj--core{background:var(--f-acc-bg);border-color:var(--f-acc)}
+.fg-keys{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13.5px;color:var(--f-soft)}
+.fg-key{display:inline-block;width:12px;height:12px;border-radius:4px;background:var(--c);margin-right:7px;vertical-align:-1px}
+.fg-model__side h4{font-size:16px;font-weight:600;margin-top:20px}
+.fg-model__side .fg-table-wrap{margin-top:12px}
+.fg-where{width:100%;border-collapse:collapse;font-size:14.5px}
+.fg-where thead th{font-size:12px;font-weight:500;color:var(--f-mute);padding:10px 4px;background:var(--f-bg);border-bottom:1px solid var(--f-line)}
+.fg-where tbody th{text-align:left;font-weight:500;padding:10px 6px 10px 14px}
+.fg-where td{text-align:center}.fg-where tbody tr+tr>*{border-top:1px solid var(--f-line)}
+.fg-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--f-acc)}.fg-dot--off{background:var(--f-bg2)}
+
+/* process */
+.fg-steps{display:grid;gap:12px}
+.fg-steps li{display:grid;grid-template-columns:40px 1fr;gap:16px;background:#fff;border:1px solid var(--f-line);border-radius:14px;padding:18px 20px}
+.fg-steps li>span{width:40px;height:40px;border-radius:50%;background:var(--f-acc-bg);color:var(--f-acc-t);font-weight:600;display:flex;align-items:center;justify-content:center}
+.fg-steps h3{font-size:17px;font-weight:600}.fg-steps p{color:var(--f-soft);margin-top:4px;font-size:15px}
+
+/* screens */
+.fg-fig img,.fg-fig video{display:block;width:100%;height:auto;border:1px solid var(--f-line);border-radius:14px;background:var(--f-bg)}
+.fg-fig figcaption{margin-top:10px;font-size:14px;line-height:1.45;color:var(--f-mute)}
+.fg-fig--wide{margin-top:clamp(28px,4vw,44px)!important}
+.fg-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px;margin-top:28px}
+.fg-note{margin-top:28px!important;color:var(--f-soft);max-width:70ch}
+.fg-spec{margin-top:24px!important;border-top:1px solid var(--f-line2)}
+.fg-spec div{display:grid;grid-template-columns:140px 1fr;gap:12px;padding:11px 0;border-bottom:1px solid var(--f-line);font-size:15px}
+.fg-spec dt{color:var(--f-mute)}.fg-spec dd{margin:0;font-weight:500}
+.fg-kit{margin-top:clamp(56px,8vw,96px)}
+.fg-layers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:28px!important}
+.fg-layers li{border-radius:12px;padding:14px 16px;background:color-mix(in srgb,var(--f-acc) calc(6% + var(--k)*7%),#fff)}
+.fg-layers b{display:block;font-weight:600}.fg-layers span{font-size:13.5px;color:var(--f-soft)}
+
+/* service blueprint */
+.fg-table-wrap--bp{border:0;border-radius:0;background:transparent}
+.fg-bp{border-collapse:separate;border-spacing:8px;min-width:1160px;width:100%;table-layout:fixed;font-size:13.5px;line-height:1.35}
+.fg-bp thead td{width:128px}
+.fg-bp th,.fg-bp td,.fg-gaps li{overflow-wrap:anywhere;hyphens:manual}
+.fg-bp thead th{text-align:left;font-weight:600;font-size:14.5px;line-height:1.3;background:var(--f-bg);border:1px solid var(--f-line);border-radius:10px;padding:12px;vertical-align:top}
+.fg-bp thead th small{display:block;font-size:12px;font-weight:500;color:var(--f-mute);margin-bottom:4px}
+.fg-bp tbody th{text-align:left;font-weight:500;font-size:14px;vertical-align:middle;padding-right:6px}
+.fg-bp td{padding:0;vertical-align:top}
+.fg-bp td div{height:100%;min-height:56px;border-radius:10px;padding:10px 12px;background:var(--f-bg)}
+.fg-bp__r--rep td div{background:var(--f-acc-bg)}
+.fg-bp__r--crm td div{background:#fff;border:1px solid var(--f-line)}
+.fg-bp__r--sys td div{background:#e8f9fc;color:#0b7285}
+.fg-bp__line th{padding:2px 0!important;position:relative}
+.fg-bp__line th::after{content:"";position:absolute;left:0;right:0;top:50%;border-top:1.5px dashed var(--f-line2)}
+.fg-bp__line th>span{position:relative;z-index:1;display:inline-block;background:#fff;border:1px solid var(--f-line);border-radius:999px;padding:1px 10px;font-size:11.5px;font-weight:500;color:var(--f-mute)}
+.fg-gaps{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-top:20px!important}
+.fg-gaps li{display:flex;flex-direction:column;gap:8px;font-size:13.5px;line-height:1.35}
+.fg-gap__n{font-size:12px;color:var(--f-mute);text-align:center}
+.fg-gap__a,.fg-gap__b{border-radius:10px;padding:10px 12px 10px 32px;position:relative}
+.fg-gap__a{background:var(--f-bg);color:var(--f-soft);flex:1}
+.fg-gap__a::before{content:"×";position:absolute;left:12px;top:8px;font-size:15px;color:var(--f-mute)}
+.fg-gap__a.is-ok::before{content:"○"}
+.fg-gap__b{background:#eafbf2;color:#087443;font-weight:500;flex:1}
+.fg-gap__b::before{content:"✓";position:absolute;left:12px;top:9px}
+.fg-gap__a::after{content:"↓";position:absolute;left:50%;bottom:-17px;transform:translateX(-50%);font-size:12px;color:var(--f-mute);z-index:1}
+.fg-gaps li{gap:18px}
+
+/* outcome */
+.fg-nums{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:680px;margin-top:clamp(32px,4vw,48px)}
+.fg-nums div{background:#fff;border:1px solid var(--f-line);border-radius:16px;padding:22px 24px}
+.fg-nums b{display:block;font-weight:600;font-size:clamp(2.4rem,5vw,3.4rem);line-height:1;letter-spacing:-.03em;color:var(--f-acc-t)}
+.fg-nums span{display:block;margin-top:8px;color:var(--f-soft)}
+.fg-lessons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:20px}
+.fg-lessons article{border-top:2px solid var(--f-acc);padding-top:16px}
+.fg-lessons h4{font-size:17px;font-weight:600}.fg-lessons p{margin-top:6px;color:var(--f-soft);font-size:15px}
+.fg-related{padding-bottom:var(--space-5,3rem)}
+
+@media (max-width:1000px){
+  .fg-roles,.fg-lessons{grid-template-columns:1fr}
+  .fg-model,.fg-site__areas{grid-template-columns:1fr}
+  .fg-tree--grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fg-gaps{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 10px}
+  .fg-facts,.fg-layers{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:820px){
+  .fg-split,.fg-split--media,.fg-pair{grid-template-columns:1fr}
+  .fg-track{grid-template-columns:1fr;gap:14px}
+  .fg-track::before{left:23px;right:auto;top:10px;bottom:10px;width:2px;height:auto}
+  .fg-stage{flex-direction:row;text-align:left;gap:14px}
+  .fg-stage__spec{min-height:0;flex:1}
+  .fg-chain{flex-direction:column}.fg-chain__ar{transform:rotate(90deg)}
+  .fg-canvas{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:none;gap:10px;grid-auto-rows:auto}
+  .fg-canvas .fg-obj{grid-area:auto!important}
+  .fg-canvas__lines{display:none}
+  .fg-nums{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .fg-tree--grid,.fg-gaps,.fg-facts,.fg-layers,.fg-canvas{grid-template-columns:1fr}
+  .fg-mx{font-size:14px;table-layout:fixed}.fg-mx tbody th{padding-left:12px}.fg-mx td{padding:8px 2px;width:auto}
+  .fg-mx thead th{width:19%;padding:10px 2px;font-size:11.5px}.fg-mx thead th:first-child{width:43%}
+  .fg-own,.fg-view{font-size:10.5px;padding:2px 5px;white-space:normal;display:inline-block;line-height:1.2}
+  .fg-mx thead th:first-child,.fg-mx__g th{padding-left:12px!important}
+  .fg-spec div{grid-template-columns:1fr;gap:2px}
+}
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
@@ -39,195 +262,109 @@
     </div>
   </header>
 
-  <main id="main" class="sheet">
-    <section class="case-hero wrap">
-      <div class="case-hero__meta">
-        <span><span class="only-en">Upwork</span><span class="only-ua">Upwork</span></span><span><span class="only-en">Fixed price</span><span class="only-ua">Фіксована ціна</span></span><span><span class="only-en">Multi-role SaaS CRM</span><span class="only-ua">Багаторольова SaaS CRM</span></span>
+  <main id="main" class="sheet fg">
+<div class="fgx">
+    <section class="fg-hero"><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Upwork · Multi-role SaaS CRM</span><span class="only-ua">Upwork · Багаторольова SaaS CRM</span></p>
+      <h1><span class="only-en">Freight Genie — a sales CRM for freight companies.</span><span class="only-ua">Freight Genie — CRM для продажів у вантажоперевезеннях.</span></h1>
+      <p class="fg-lede"><span class="only-en">A multi-role SaaS CRM where freight brokers move shippers from a first call to a recurring customer. Three user roles, a lead pipeline, tasks and permissions, designed solo from the client’s written spec. An Upwork project with a five-star review.</span><span class="only-ua">Багаторольова SaaS CRM, у якій фрейт-брокери ведуть вантажовідправника від першого дзвінка до постійного клієнта. Три ролі користувачів, воронка лідів, задачі й права доступу — я спроєктував усе сам за письмовою специфікацією клієнта. Upwork-проєкт із п’ятизірковим відгуком.</span></p>
+      <figure class="fg-cover"><img src="../../assets/cases/freight-genie/cover-mockup.webp" srcset="../../assets/cases/freight-genie/cover-mockup-800.webp 800w, ../../assets/cases/freight-genie/cover-mockup.webp 1600w" sizes="(min-width: 1240px) 1160px, 94vw" width="1600" height="1000" alt="The Lane map screen of the CRM shown on a desktop monitor"></figure>
+      <dl class="fg-facts"><div><dt><span class="only-en">Client</span><span class="only-ua">Клієнт</span></dt><dd><span class="only-en">Upwork (confidential)</span><span class="only-ua">Upwork (конфіденційно)</span></dd></div><div><dt><span class="only-en">Role</span><span class="only-ua">Роль</span></dt><dd><span class="only-en">Product Designer, solo</span><span class="only-ua">Product Designer, соло</span></dd></div><div><dt><span class="only-en">Scope</span><span class="only-ua">Обсяг</span></dt><dd><span class="only-en">MVP · 3 roles</span><span class="only-ua">MVP · 3 ролі</span></dd></div><div><dt><span class="only-en">Tools</span><span class="only-ua">Інструменти</span></dt><dd><span class="only-en">Figma · UI kit · prototype</span><span class="only-ua">Figma · UI kit · прототип</span></dd></div></dl>
+    </div></section>
+    <section class="fg-band"><div class="wrap fg-split">
+      <div><p class="fg-eb"><span class="only-en">The business problem</span><span class="only-ua">Бізнес-проблема</span></p><h2><span class="only-en">A sales process that lived in people’s heads.</span><span class="only-ua">Процес продажів, який жив у головах людей.</span></h2></div>
+      <div class="fg-prose">
+        <p><span class="only-en">The client was building a product for freight companies. Their sales people win shippers through a long chain of calls, quotes and first shipments. Without a system, nobody could see which leads were moving and which had gone quiet.</span><span class="only-ua">Клієнт створював продукт для вантажних компаній. Їхні продавці здобувають вантажовідправників через довгий ланцюжок дзвінків, комерційних пропозицій і перших відправлень. Без системи ніхто не бачив, які ліди рухаються, а які завмерли.</span></p>
+        <p><span class="only-en">The client came with a written specification for an MVP. My job was to turn that specification into a complete, buildable design — without the scope growing along the way.</span><span class="only-ua">Клієнт прийшов із письмовою специфікацією MVP. Моє завдання — перетворити цю специфікацію на повний дизайн, готовий до розробки, і не дати обсягу розростися дорогою.</span></p>
       </div>
-      <h1 class="case-hero__title"><span class="only-en">Freight Genie — a sales CRM for freight companies.</span><span class="only-ua">Freight Genie — CRM для продажів у вантажоперевезеннях.</span></h1>
-      <p class="case-hero__sub"><span class="only-en">A multi-role SaaS CRM where freight brokers move shippers from a first call to a recurring customer. Three user roles, a lead pipeline, tasks and permissions, designed solo from the client’s written spec. A fixed-price Upwork project with a five-star review.</span><span class="only-ua">Багаторольова SaaS CRM, у якій фрейт-брокери ведуть вантажовідправника від першого дзвінка до постійного клієнта. Три ролі користувачів, воронка лідів, задачі й права доступу — я спроєктував усе сам за письмовою специфікацією клієнта. Upwork-проєкт з фіксованою ціною і п’ятизірковим відгуком.</span></p>
-    </section>
+    </div></section>
+    <section><div class="wrap">
+      <p class="fg-eb"><span class="only-en">People</span><span class="only-ua">Люди</span></p><h2><span class="only-en">Three roles, three views of the same data.</span><span class="only-ua">Три ролі — три погляди на ті самі дані.</span></h2><p class="fg-lede"><span class="only-en">I started from this permission map and not from screens. For every role I wrote down what they must see, what they may change and where they enter the product. The screens followed from that.</span><span class="only-ua">Я почав із цієї карти прав доступу, а не з екранів. Для кожної ролі я записав, що вона має бачити, що може змінювати і де входить у продукт. Екрани випливли з цього.</span></p><p class="fg-src"><span class="only-en">Roles and their tasks come from the client’s spec. Four rules marked “new” are my additions to it.</span><span class="only-ua">Ролі та їхні задачі взято зі специфікації клієнта. Чотири правила з позначкою «нове» — мої доповнення до неї.</span></p>
+      <div class="fg-roles"><article class="fg-role"><h3>Admin</h3><p class="fg-role__who"><span class="only-en">Freight Genie staff</span><span class="only-ua">Команда Freight Genie</span></p><div class="fg-role__spec"><b><span class="only-en">In the spec</span><span class="only-ua">У специфікації</span></b><span class="only-en">Manage customer accounts and their access to the app.</span><span class="only-ua">Керує акаунтами клієнтів і їхнім доступом до застосунку.</span></div><p class="fg-k"><span class="only-en">Main screens</span><span class="only-ua">Головні екрани</span></p><div class="fg-pills"><span class="fg-pill">Customers</span><span class="fg-pill">View as customer</span></div><p class="fg-k"><span class="only-en">Key rights</span><span class="only-ua">Ключові права</span></p><ul class="fg-checks"><li><span class="only-en">Create, edit and disable customers</span><span class="only-ua">Створює, редагує й вимикає клієнтів</span></li><li><span class="only-en">Reset customer passwords</span><span class="only-ua">Скидає паролі клієнтів</span></li><li><span class="only-en">View any customer’s dashboard as the customer</span><span class="only-ua">Бачить дашборд будь-якого клієнта як клієнт</span></li></ul></article><article class="fg-role"><h3>Customer Owner</h3><p class="fg-role__who"><span class="only-en">Customer account owner</span><span class="only-ua">Власник акаунта клієнта</span></p><div class="fg-role__spec"><b><span class="only-en">In the spec</span><span class="only-ua">У специфікації</span></b><span class="only-en">Manage leads, company settings, the checklist and sales users; view analytics.</span><span class="only-ua">Керує лідами, налаштуваннями компанії, чек-листом і продавцями; бачить аналітику.</span></div><p class="fg-k"><span class="only-en">Main screens</span><span class="only-ua">Головні екрани</span></p><div class="fg-pills"><span class="fg-pill">Dashboard</span><span class="fg-pill">Shipper leads</span><span class="fg-pill">Team</span><span class="fg-pill">Settings</span></div><p class="fg-k"><span class="only-en">Key rights</span><span class="only-ua">Ключові права</span></p><ul class="fg-checks"><li><span class="only-en">Assign leads to sales people</span><span class="only-ua">Призначає ліди продавцям</span></li><li><span class="only-en">Edit the deal checklist and weights</span><span class="only-ua">Редагує чек-лист угоди й ваги</span></li><li><span class="only-en">Add and reset sales users</span><span class="only-ua">Додає продавців і скидає їхні паролі</span></li></ul></article><article class="fg-role"><h3>Customer Sales</h3><p class="fg-role__who"><span class="only-en">Sales rep at the brokerage</span><span class="only-ua">Продавець брокерської компанії</span></p><div class="fg-role__spec"><b><span class="only-en">In the spec</span><span class="only-ua">У специфікації</span></b><span class="only-en">Add and manage leads.</span><span class="only-ua">Додає ліди й веде їх.</span></div><p class="fg-k"><span class="only-en">Main screens</span><span class="only-ua">Головні екрани</span></p><div class="fg-pills"><span class="fg-pill">Dashboard</span><span class="fg-pill">Lead page</span><span class="fg-pill">Tasks</span><span class="fg-pill">Lane map</span></div><p class="fg-k"><span class="only-en">Key rights</span><span class="only-ua">Ключові права</span></p><ul class="fg-checks"><li><span class="only-en">Add and manage leads</span><span class="only-ua">Додає ліди й веде їх</span></li><li><span class="only-en">Claim new leads from the daily delivery</span><span class="only-ua">Забирає нові ліди з щоденної доставки</span> <span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></li><li><span class="only-en">Edit only own leads</span><span class="only-ua">Редагує лише власні ліди</span> <span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></li></ul></article></div>
+      <h3 class="fg-h3"><span class="only-en">Permission matrix</span><span class="only-ua">Матриця прав</span></h3>
+      <p class="fg-sub"><span class="only-en">Every action the spec names, plus four new rules.</span><span class="only-ua">Кожна дія, яку називає специфікація, плюс чотири нові правила.</span></p>
+      <div class="fg-table-wrap"><table class="fg-mx">
+        <thead><tr><th scope="col"><span class="only-en">Action</span><span class="only-ua">Дія</span></th><th scope="col">Admin</th><th scope="col"><span class="only-en">Owner</span><span class="only-ua">Owner</span></th><th scope="col"><span class="only-en">Sales</span><span class="only-ua">Sales</span></th></tr></thead>
+        <tbody><tr class="fg-mx__g"><th colspan="4" scope="colgroup"><span class="only-en">Customers</span><span class="only-ua">Клієнти</span></th></tr><tr><th scope="row"><span class="only-en">Create, edit, disable a customer</span><span class="only-ua">Створити, редагувати, вимкнути клієнта</span></th><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">Reset a customer’s password</span><span class="only-ua">Скинути пароль клієнта</span></th><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">Open a customer’s dashboard</span><span class="only-ua">Відкрити дашборд клієнта</span></th><td><span class="fg-view"><span class="only-en">view</span><span class="only-ua">перегляд</span></span></td><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr class="fg-mx__g"><th colspan="4" scope="colgroup"><span class="only-en">Shipper leads</span><span class="only-ua">Ліди-вантажовідправники</span></th></tr><tr><th scope="row"><span class="only-en">Add a lead</span><span class="only-ua">Додати лід</span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-y" aria-label="yes"></i></td></tr><tr><th scope="row"><span class="only-en">Update stage, checklist, notes, tasks</span><span class="only-ua">Оновити етап, чек-лист, нотатки, задачі</span> <span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><span class="fg-own"><span class="only-en">own only</span><span class="only-ua">лише свої</span></span></td></tr><tr><th scope="row"><span class="only-en">Delete a lead</span><span class="only-ua">Видалити лід</span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">Assign leads to sales people</span><span class="only-ua">Призначити ліди продавцям</span> <span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">Claim a lead from today’s delivery</span><span class="only-ua">Забрати лід із сьогоднішньої доставки</span> <span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-y" aria-label="yes"></i></td></tr><tr class="fg-mx__g"><th colspan="4" scope="colgroup"><span class="only-en">Company</span><span class="only-ua">Компанія</span></th></tr><tr><th scope="row"><span class="only-en">Edit company profile and logo</span><span class="only-ua">Редагувати профіль і логотип компанії</span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">Edit the deal checklist and weights</span><span class="only-ua">Редагувати чек-лист угоди й ваги</span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">Add or reset sales users</span><span class="only-ua">Додати продавця або скинути пароль</span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-n" aria-label="no"></i></td></tr><tr><th scope="row"><span class="only-en">View analytics</span><span class="only-ua">Бачити аналітику</span> <span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></th><td><i class="fg-n" aria-label="no"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><span class="fg-own"><span class="only-en">own only</span><span class="only-ua">лише свої</span></span></td></tr><tr><th scope="row"><span class="only-en">Reset own password</span><span class="only-ua">Скинути власний пароль</span></th><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-y" aria-label="yes"></i></td><td><i class="fg-y" aria-label="yes"></i></td></tr></tbody></table></div>
+      <p class="fg-callout fg-callout--info"><span class="only-en">New rule with the biggest effect: a sales rep edits only their own leads. The spec did not say which leads a rep may change, so two reps could work the same shipper.</span><span class="only-ua">Нове правило з найбільшим ефектом: продавець редагує лише власні ліди. Специфікація не казала, які ліди продавець може змінювати, тож двоє продавців могли вести того самого вантажовідправника.</span></p>
+    </div></section>
+    <section class="fg-band"><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Business logic</span><span class="only-ua">Бізнес-логіка</span></p><h2><span class="only-en">The logic before the screens.</span><span class="only-ua">Логіка перед екранами.</span></h2><p class="fg-lede"><span class="only-en">The spec named eight lead stages and a deal checklist with weights. I mapped the stages to the labels a sales rep sees. I also made the checklist the source of the confidence score, so the forecast comes from one number and not from two that can disagree.</span><span class="only-ua">Специфікація називала вісім етапів ліда й чек-лист угоди з вагами. Я зіставив етапи з підписами, які бачить продавець. А ще зробив чек-лист джерелом показника confidence, тож прогноз спирається на одне число, а не на два, що можуть суперечити одне одному.</span></p><p class="fg-src"><span class="only-en">Source: client spec.</span><span class="only-ua">Джерело: специфікація клієнта.</span></p>
+      <h3 class="fg-h3"><span class="only-en">8 stages, from the spec to the screen</span><span class="only-ua">8 етапів: від специфікації до екрана</span></h3>
+      <p class="fg-sub"><span class="only-en">Top: stage name in the spec. Bottom: label the sales rep sees.</span><span class="only-ua">Зверху — назва етапу в специфікації. Знизу — підпис, який бачить продавець.</span></p>
+      <ol class="fg-track"><li class="fg-stage" style="--k:0"><span class="fg-stage__dot">1</span><span class="fg-stage__spec">Lead</span><span class="fg-badge fg-badge--blue">New</span></li><li class="fg-stage" style="--k:1"><span class="fg-stage__dot">2</span><span class="fg-stage__spec">Discovery</span><span class="fg-badge fg-badge--neutral">Discovery</span></li><li class="fg-stage" style="--k:2"><span class="fg-stage__dot">3</span><span class="fg-stage__spec">Interested</span><span class="fg-badge fg-badge--neutral">Interested</span></li><li class="fg-stage" style="--k:3"><span class="fg-stage__dot">4</span><span class="fg-stage__spec">Decision maker brought-in</span><span class="fg-badge fg-badge--neutral">Decision</span></li><li class="fg-stage" style="--k:4"><span class="fg-stage__dot">5</span><span class="fg-stage__spec">Sent Rate Con</span><span class="fg-badge fg-badge--amber">Contract sent</span></li><li class="fg-stage" style="--k:5"><span class="fg-stage__dot">6</span><span class="fg-stage__spec">Moved First Shipment</span><span class="fg-badge fg-badge--green">Won</span></li><li class="fg-stage" style="--k:6"><span class="fg-stage__dot">7</span><span class="fg-stage__spec">Recurring Customer</span><span class="fg-badge fg-badge--green">Won</span></li></ol>
+      <p class="fg-lost"><span class="fg-lost__x" aria-hidden="true">×</span><b>Closed Lost / Uninterested</b><span class="fg-badge fg-badge--neutral">Lost</span><span><span class="only-en">is an exit from any stage, not the last step.</span><span class="only-ua">— це вихід із будь-якого етапу, а не останній крок.</span></span></p>
+      <p class="fg-callout fg-callout--info"><span class="only-en">Stages 6 and 7 both read “Won” in lists. Day to day, the rep only needs to know the deal is closed. The lead page keeps the exact stage.</span><span class="only-ua">Етапи 6 і 7 у списках мають однаковий підпис «Won». Щодня продавцю досить знати, що угоду закрито. Точний етап зберігає сторінка ліда.</span></p>
+      <h3 class="fg-h3"><span class="only-en">How the checklist becomes a forecast</span><span class="only-ua">Як чек-лист стає прогнозом</span></h3>
+      <p class="fg-sub"><span class="only-en">Checklist from the client’s spec. Formulas: my design decision.</span><span class="only-ua">Чек-лист — зі специфікації клієнта. Формули — моє дизайн-рішення.</span></p>
+      <div class="fg-chain"><div class="fg-formula"><h4><span class="only-en">Confidence</span><span class="only-ua">Confidence</span></h4><code><span class="only-en">Σ weights of done items</span><span class="only-ua">Σ ваг виконаних пунктів</span></code><p><span class="only-en">11 checklist items from the spec, each with a weight. Shown as a bar in the leads table and on the lead page.</span><span class="only-ua">11 пунктів чек-листа зі специфікації, кожен із вагою. Показано смугою в таблиці лідів і на сторінці ліда.</span></p></div><span class="fg-chain__ar" aria-hidden="true">→</span><div class="fg-formula"><h4><span class="only-en">Weighted revenue</span><span class="only-ua">Зважена виручка</span></h4><code><span class="only-en">Est. revenue × confidence</span><span class="only-ua">Оцінка виручки × confidence</span></code><p><span class="only-en">A deal at low confidence should not count in full.</span><span class="only-ua">Угода з низьким confidence не має рахуватися повністю.</span></p></div><span class="fg-chain__ar" aria-hidden="true">→</span><div class="fg-formula is-last"><h4><span class="only-en">Pipeline forecast</span><span class="only-ua">Прогноз воронки</span></h4><code><span class="only-en">Σ weighted revenue</span><span class="only-ua">Σ зваженої виручки</span></code><p><span class="only-en">Shown on the dashboard. Won counts in full, lost counts as zero.</span><span class="only-ua">Показано на дашборді. Виграна угода рахується повністю, програна — як нуль.</span></p></div></div>
+      <p class="fg-callout fg-callout--warn"><span class="only-en">The spec had confidence as a separate field next to the checklist %. In the design it comes from the checklist; the rep can change it with a reason. One number instead of two that can disagree.</span><span class="only-ua">У специфікації confidence був окремим полем поруч із відсотком чек-листа. У дизайні він береться з чек-листа; продавець може змінити його з поясненням. Одне число замість двох, що можуть суперечити одне одному.</span></p>
+    </div></section>
+    <section><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Structure</span><span class="only-ua">Структура</span></p><h2><span class="only-en">What is in the product and how it connects.</span><span class="only-ua">Що є в продукті і як це пов’язано.</span></h2><p class="fg-lede"><span class="only-en">The sitemap shows where people go. The object model shows what the product stores. Screens follow from the objects, not the other way round.</span><span class="only-ua">Карта сайту показує, куди йдуть люди. Модель об’єктів показує, що зберігає продукт. Екрани випливають з об’єктів, а не навпаки.</span></p><p class="fg-src"><span class="only-en">Source: client spec and design.</span><span class="only-ua">Джерело: специфікація клієнта й дизайн.</span></p>
+      <h3 class="fg-h3"><span class="only-en">Sitemap</span><span class="only-ua">Карта сайту</span></h3>
+      <p class="fg-sub"><span class="only-en">Where people go, from sign-in to every screen.</span><span class="only-ua">Куди йдуть люди: від входу до кожного екрана.</span></p>
+      <div class="fg-site">
+        <div class="fg-site__root"><span class="fg-node__box"><b>Sign in</b><small>Forgot password</small></span><span class="fg-site__ar" aria-hidden="true">→</span><span class="fg-node__box fg-node__box--root"><b>Freight Genie CRM</b></span></div>
+        <div class="fg-site__areas">
+          <div class="fg-area"><p class="fg-area__h"><b>Brokerage app</b><span>Customer Owner, Customer Sales</span></p><ul class="fg-tree fg-tree--grid"><li class="fg-node"><span class="fg-node__box"><b>Dashboard</b></span></li><li class="fg-node"><span class="fg-node__box"><b>First run</b><span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></span></li><li class="fg-node"><span class="fg-node__box"><b>Shipper leads</b></span><ul class="fg-tree"><li class="fg-node"><span class="fg-node__box"><b>Lead page</b><small><span class="only-en">Activity, tasks, docs, checklist</span><span class="only-ua">Активність, задачі, документи, чек-лист</span></small></span></li><li class="fg-node"><span class="fg-node__box"><b>New task panel</b><span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></span></li><li class="fg-node is-mvp"><span class="fg-node__box"><b>CSV import</b><span class="fg-mvp">MVP 2</span></span></li><li class="fg-node is-mvp"><span class="fg-node__box"><b>Board view</b><span class="fg-mvp">MVP 2</span></span></li></ul></li><li class="fg-node"><span class="fg-node__box"><b>Lane map</b><span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span></span></li><li class="fg-node"><span class="fg-node__box"><b>Tasks</b></span></li><li class="fg-node"><span class="fg-node__box"><b>Documents</b></span></li><li class="fg-node"><span class="fg-node__box"><b>Team</b></span></li><li class="fg-node"><span class="fg-node__box"><b>Settings</b></span><ul class="fg-tree"><li class="fg-node"><span class="fg-node__box"><b>Company profile</b></span></li><li class="fg-node"><span class="fg-node__box"><b>Checklist editor</b></span></li><li class="fg-node"><span class="fg-node__box"><b>Users &amp; roles</b></span></li><li class="fg-node is-mvp"><span class="fg-node__box"><b>Email integration</b><span class="fg-mvp">MVP 2</span></span></li></ul></li></ul></div>
+          <div class="fg-area"><p class="fg-area__h"><b>Admin console</b><span><span class="only-en">Freight Genie staff</span><span class="only-ua">Команда Freight Genie</span></span></p><ul class="fg-tree"><li class="fg-node"><span class="fg-node__box"><b>Customers</b></span><ul class="fg-tree"><li class="fg-node"><span class="fg-node__box"><b>Create, edit, disable</b></span></li><li class="fg-node"><span class="fg-node__box"><b>Reset password</b></span></li><li class="fg-node"><span class="fg-node__box"><b>View as customer</b></span></li></ul></li></ul></div>
+        </div>
+        <p class="fg-legend"><span class="fg-new"><span class="only-en">new</span><span class="only-ua">нове</span></span><span><span class="only-en">added in the design</span><span class="only-ua">додано в дизайні</span></span><span class="fg-mvp">MVP 2</span><span><span class="only-en">planned in the client’s spec</span><span class="only-ua">заплановано в специфікації клієнта</span></span></p>
+      </div>
 
-    <section class="case-cover">
-      <div class="wrap">
-        <div class="case-cover__inner case-cover__inner--art">
-          <img src="../../assets/cases/freight-genie/cover-mockup.webp" srcset="../../assets/cases/freight-genie/cover-mockup-800.webp 800w, ../../assets/cases/freight-genie/cover-mockup.webp 1600w" sizes="(min-width: 1280px) 1200px, 100vw" width="1600" height="1000" alt="A monitor showing the Freight Genie lane map: freight lanes across the United States and a ranked list of top lanes" fetchpriority="high" decoding="async">
+      <h3 class="fg-h3"><span class="only-en">Object model</span><span class="only-ua">Модель об’єктів</span></h3>
+      <p class="fg-sub"><span class="only-en">10 objects. Shipper is the center of the product.</span><span class="only-ua">10 об’єктів. Shipper — центр продукту.</span></p>
+      <div class="fg-model">
+        <div class="fg-canvas"><svg class="fg-canvas__lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="16.7" y1="16.7" x2="50" y2="16.7"/><line x1="16.7" y1="16.7" x2="50" y2="50"/><line x1="50" y1="16.7" x2="50" y2="50"/><line x1="83.3" y1="16.7" x2="83.3" y2="50"/><line x1="16.7" y1="50" x2="50" y2="50"/><line x1="50" y1="50" x2="83.3" y2="50"/><line x1="50" y1="50" x2="12.5" y2="83.3"/><line x1="50" y1="50" x2="37.5" y2="83.3"/><line x1="50" y1="50" x2="62.5" y2="83.3"/><line x1="62.5" y1="83.3" x2="87.5" y2="83.3"/></svg><div class="fg-obj fg-obj--org" style="grid-area:b"><b>Brokerage</b><span class="fg-obj__at">name · logo · address</span><span class="fg-obj__rel"><span class="only-en">has users · has shippers</span><span class="only-ua">має користувачів · має вантажовідправників</span></span></div><div class="fg-obj fg-obj--people" style="grid-area:u"><b>User</b><span class="fg-obj__at">name · role</span><span class="fg-obj__rel"><span class="only-en">owns shippers</span><span class="only-ua">веде вантажовідправників</span></span></div><div class="fg-obj fg-obj--org" style="grid-area:c"><b>Checklist template</b><span class="fg-obj__at">items · weights = 100%</span><span class="fg-obj__rel"><span class="only-en">scores the deal</span><span class="only-ua">оцінює угоду</span></span></div><div class="fg-obj fg-obj--people" style="grid-area:k"><b>Contact</b><span class="fg-obj__at">name · title · phone · email</span><span class="fg-obj__rel"><span class="only-en">Shipper 1 → n</span><span class="only-ua">Shipper 1 → n</span></span></div><div class="fg-obj fg-obj--core" style="grid-area:s"><b>Shipper</b><span class="fg-obj__at">company · address · cargo · temperature</span><span class="fg-obj__rel"><span class="only-en">the center of the product</span><span class="only-ua">центр продукту</span></span></div><div class="fg-obj fg-obj--org" style="grid-area:d"><b>Deal</b><span class="fg-obj__at">stage · checklist % · confidence · revenue</span><span class="fg-obj__rel"><span class="only-en">Shipper 1 → 1</span><span class="only-ua">Shipper 1 → 1</span></span></div><div class="fg-obj fg-obj--work" style="grid-area:l"><b>Lane</b><span class="fg-obj__at">pickup → delivery · truck · loads / week</span><span class="fg-obj__rel"><span class="only-en">Shipper 1 → n</span><span class="only-ua">Shipper 1 → n</span></span></div><div class="fg-obj fg-obj--work" style="grid-area:a"><b>Activity</b><span class="fg-obj__at">call, email, note · pinned</span><span class="fg-obj__rel"><span class="only-en">Shipper 1 → n</span><span class="only-ua">Shipper 1 → n</span></span></div><div class="fg-obj fg-obj--work" style="grid-area:t"><b>Task</b><span class="fg-obj__at">due · reminder · assignee</span><span class="fg-obj__rel"><span class="only-en">Shipper 1 → n</span><span class="only-ua">Shipper 1 → n</span></span></div><div class="fg-obj fg-obj--work" style="grid-area:f"><b>Document</b><span class="fg-obj__at">file · folder</span><span class="fg-obj__rel"><span class="only-en">Task 0 → n</span><span class="only-ua">Task 0 → n</span></span></div></div>
+        <div class="fg-model__side">
+          <ul class="fg-keys"><li><i class="fg-key fg-key--org"></i><span class="only-en">Business setup</span><span class="only-ua">Налаштування бізнесу</span></li><li><i class="fg-key fg-key--core"></i><span class="only-en">Core object</span><span class="only-ua">Головний об’єкт</span></li><li><i class="fg-key fg-key--people"></i><span class="only-en">People</span><span class="only-ua">Люди</span></li><li><i class="fg-key fg-key--work"></i><span class="only-en">Daily work</span><span class="only-ua">Щоденна робота</span></li></ul>
+          <h4><span class="only-en">Where each object appears</span><span class="only-ua">Де з’являється кожен об’єкт</span></h4>
+          <div class="fg-table-wrap"><table class="fg-where"><thead><tr><th></th><th scope='col'>Dashboard</th><th scope='col'>Leads</th><th scope='col'>Lead</th><th scope='col'>Map</th><th scope='col'>Tasks</th></tr></thead><tbody><tr><th scope="row">Shipper</th><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td></tr><tr><th scope="row">Deal</th><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot fg-dot--off"></i></td></tr><tr><th scope="row">Lane</th><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot fg-dot--off"></i></td></tr><tr><th scope="row">Contact</th><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot"></i></td></tr><tr><th scope="row">Task</th><td><i class="fg-dot"></i></td><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot"></i></td></tr><tr><th scope="row">Activity</th><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot"></i></td><td><i class="fg-dot fg-dot--off"></i></td><td><i class="fg-dot fg-dot--off"></i></td></tr></tbody></table></div>
+          <p class="fg-callout fg-callout--info"><span class="only-en">Lane is a design decision. The spec kept pickup and delivery as text on the shipper. As an object, a lane can be counted, mapped and matched with new leads.</span><span class="only-ua">Lane — це дизайн-рішення. Специфікація зберігала завантаження й доставку як текст у вантажовідправника. Як об’єкт, маршрут можна рахувати, показувати на карті й зіставляти з новими лідами.</span></p>
         </div>
       </div>
-    </section>
-
-    <div class="wrap">
-      <div class="case-facts">
-        <div class="fact"><div class="fact__label"><span class="only-en">Client</span><span class="only-ua">Клієнт</span></div><div class="fact__value"><span class="only-en">Upwork (confidential)</span><span class="only-ua">Upwork (конфіденційно)</span></div></div>
-        <div class="fact"><div class="fact__label"><span class="only-en">Role</span><span class="only-ua">Роль</span></div><div class="fact__value"><span class="only-en">Product Designer, solo</span><span class="only-ua">Product Designer, соло</span></div></div>
-        <div class="fact"><div class="fact__label"><span class="only-en">Scope</span><span class="only-ua">Обсяг</span></div><div class="fact__value"><span class="only-en">MVP · 3 roles</span><span class="only-ua">MVP · 3 ролі</span></div></div>
-        <div class="fact"><div class="fact__label"><span class="only-en">Tools</span><span class="only-ua">Інструменти</span></div><div class="fact__value"><span class="only-en">Figma · UI kit · prototype</span><span class="only-ua">Figma · UI kit · прототип</span></div></div>
+    </div></section>
+    <section class="fg-band"><div class="wrap fg-split">
+      <div><p class="fg-eb"><span class="only-en">Process</span><span class="only-ua">Процес</span></p><h2><span class="only-en">How I kept the scope under control.</span><span class="only-ua">Як я тримав обсяг під контролем.</span></h2></div>
+      <ol class="fg-steps"><li><span>1</span><div><h3><span class="only-en">Specification to flows</span><span class="only-ua">Від специфікації до флоу</span></h3><p><span class="only-en">I turned the client’s document into a mind map of flows before opening Figma.</span><span class="only-ua">Я перетворив документ клієнта на ментальну карту флоу, перш ніж відкрити Figma.</span></p></div></li><li><span>2</span><div><h3><span class="only-en">A board with a done state</span><span class="only-ua">Дошка зі станом «готово»</span></h3><p><span class="only-en">Every screen was a card on a board with a clear done state.</span><span class="only-ua">Кожен екран був карткою на дошці з чітким станом «готово».</span></p></div></li><li><span>3</span><div><h3><span class="only-en">States, not only screens</span><span class="only-ua">Стани, а не лише екрани</span></h3><p><span class="only-en">Empty states were designed together with the main flow, so developers did not have to invent them.</span><span class="only-ua">Порожні стани я проєктував разом з основним флоу, щоб розробникам не довелося їх вигадувати.</span></p></div></li></ol>
+    </div></section>
+    <section><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Screens</span><span class="only-ua">Екрани</span></p><h2><span class="only-en">What I designed.</span><span class="only-ua">Що я спроєктував.</span></h2><p class="fg-lede"><span class="only-en">Company names, people and numbers on the screens are sample data.</span><span class="only-ua">Назви компаній, люди й числа на екранах — демо-дані.</span></p>
+      <figure class="fg-fig fg-fig--wide"><img src="../../assets/cases/freight-genie/dashboard.webp" width="1600" height="1000" alt="Dashboard with a pipeline bar by stage, a list of new shippers to claim and today’s tasks" loading="lazy" decoding="async"><figcaption><span class="only-en">The dashboard answers three questions: how the pipeline looks, which new shippers arrived today, and whom to call next.</span><span class="only-ua">Дашборд відповідає на три питання: який вигляд має воронка, які нові вантажовідправники надійшли сьогодні й кому дзвонити далі.</span></figcaption></figure>
+      <div class="fg-pair">
+        <figure class="fg-fig "><img src="../../assets/cases/freight-genie/leads.webp" width="1600" height="1000" alt="Shipper leads table with three selected rows and a bulk action bar at the bottom" loading="lazy" decoding="async"><figcaption><span class="only-en">Shipper leads: freight, lane, stage and revenue in one row. Bulk actions appear when rows are selected.</span><span class="only-ua">Ліди-вантажовідправники: вантаж, маршрут, етап і виручка в одному рядку. Масові дії з’являються, коли вибрано рядки.</span></figcaption></figure>
+        <figure class="fg-fig "><img src="../../assets/cases/freight-genie/lead-page.webp" width="1600" height="1000" alt="Lead page with a stage stepper, the next task, an activity timeline and a side column with contact, shipping profile and deal" loading="lazy" decoding="async"><figcaption><span class="only-en">The lead page: deal stage, the next step, call history and the shipper’s lanes in one place.</span><span class="only-ua">Сторінка ліда: етап угоди, наступний крок, історія дзвінків і маршрути вантажовідправника в одному місці.</span></figcaption></figure>
+        <figure class="fg-fig "><img src="../../assets/cases/freight-genie/new-task.webp" width="1600" height="1000" alt="A New task side panel open over the lead page, with type, title, due date, reminder, assignee and notes" loading="lazy" decoding="async"><figcaption><span class="only-en">A new task opens in a side panel, so the sales rep stays on the lead.</span><span class="only-ua">Нова задача відкривається в бічній панелі, тож продавець лишається на сторінці ліда.</span></figcaption></figure>
+        <figure class="fg-fig "><img src="../../assets/cases/freight-genie/tasks.webp" width="1600" height="1000" alt="Tasks list with an Overdue group and a Today group, one task checked off and a toast with Undo" loading="lazy" decoding="async"><figcaption><span class="only-en">Tasks: overdue first, then today. A completed task can be undone from the toast.</span><span class="only-ua">Задачі: спершу прострочені, потім сьогоднішні. Виконану задачу можна повернути кнопкою в сповіщенні.</span></figcaption></figure>
+        <figure class="fg-fig "><img src="../../assets/cases/freight-genie/lane-map.webp" width="1600" height="1000" alt="A map of the United States with freight lanes drawn as arcs and a ranked list of top lanes" loading="lazy" decoding="async"><figcaption><span class="only-en">The lane map: where freight moves, with the busiest lanes ranked by loads per week.</span><span class="only-ua">Карта маршрутів: куди рухається вантаж і які маршрути найзавантаженіші за кількістю рейсів на тиждень.</span></figcaption></figure>
+        <figure class="fg-fig "><img src="../../assets/cases/freight-genie/first-run.webp" width="1600" height="1000" alt="First-run dashboard with a truck illustration, a three-step explanation and the brokerage’s lanes" loading="lazy" decoding="async"><figcaption><span class="only-en">The first-run screen: what a new brokerage sees before the first leads arrive.</span><span class="only-ua">Екран першого запуску: що бачить нова брокерська компанія до появи перших лідів.</span></figcaption></figure>
       </div>
-    </div>
-
-    <div class="wrap">
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">The business problem: a sales process that lived in people’s heads.</span><span class="only-ua">Бізнес-проблема: процес продажів, який жив у головах людей.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <p><span class="only-en">The client was building a product for freight companies. Their sales people win shippers through a long chain of calls, quotes and first shipments. Without a system, nobody could see which leads were moving and which had gone quiet.</span><span class="only-ua">Клієнт створював продукт для вантажних компаній. Їхні продавці здобувають вантажовідправників через довгий ланцюжок дзвінків, комерційних пропозицій і перших відправлень. Без системи ніхто не бачив, які ліди рухаються, а які завмерли.</span></p>
-          <p><span class="only-en">The client came with a written specification for an MVP and a fixed budget. My job was to turn that specification into a complete, buildable design — without the scope growing along the way.</span><span class="only-ua">Клієнт прийшов із письмовою специфікацією MVP і фіксованим бюджетом. Моє завдання — перетворити цю специфікацію на повний дизайн, готовий до розробки, і не дати обсягу розростися дорогою.</span></p>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">Three roles, three views of the same data.</span><span class="only-ua">Три ролі — три погляди на ті самі дані.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <ul class="case-list case-list--bullets">
-            <li><div><strong><span class="only-en">Admin</span><span class="only-ua">Admin</span></strong><span class="case-list__sub"><span class="only-en">The product’s own staff: manages customer companies and can see their dashboards.</span><span class="only-ua">Власна команда продукту: керує компаніями-клієнтами й бачить їхні дашборди.</span></span></div></li>
-            <li><div><strong><span class="only-en">Customer Owner</span><span class="only-ua">Customer Owner</span></strong><span class="case-list__sub"><span class="only-en">Runs a freight company’s account: leads, company settings, sales users and analytics.</span><span class="only-ua">Веде акаунт вантажної компанії: ліди, налаштування компанії, продавців та аналітику.</span></span></div></li>
-            <li><div><strong><span class="only-en">Customer Sales</span><span class="only-ua">Customer Sales</span></strong><span class="case-list__sub"><span class="only-en">Adds leads and works them, day by day.</span><span class="only-ua">Додає ліди й щодня працює з ними.</span></span></div></li>
-          </ul>
-          <p><span class="only-en">I started from this permission map and not from screens. For every role I wrote down what they must see, what they may change and where they enter the product. The screens followed from that.</span><span class="only-ua">Я почав із цієї карти прав доступу, а не з екранів. Для кожної ролі я записав, що вона має бачити, що може змінювати і де входить у продукт. Екрани випливли з цього.</span></p>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/roles-permissions.webp" width="1600" height="1806" alt="Three role cards and a permission matrix: actions in rows, Admin, Customer Owner and Customer Sales in columns" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">Roles and the permission matrix. Rules marked “new” are my additions to the spec.</span><span class="only-ua">Ролі й матриця прав. Правила з позначкою «new» — мої доповнення до специфікації.</span></figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">The logic before the screens.</span><span class="only-ua">Логіка перед екранами.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <p><span class="only-en">The spec named eight lead stages and a deal checklist with weights. I mapped the stages to the labels a sales rep sees. I also made the checklist the source of the confidence score, so the forecast comes from one number and not from two that can disagree.</span><span class="only-ua">Специфікація називала вісім етапів ліда й чек-лист угоди з вагами. Я зіставив етапи з підписами, які бачить продавець. А ще зробив чек-лист джерелом показника confidence, тож прогноз спирається на одне число, а не на два, що можуть суперечити одне одному.</span></p>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/pipeline-logic.webp" width="1600" height="1006" alt="Diagram of eight lead stages mapped to interface labels, and three formulas: confidence, weighted revenue and pipeline forecast" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">Lead stages from the spec, their labels in the interface, and how the checklist becomes a forecast.</span><span class="only-ua">Етапи ліда зі специфікації, їхні підписи в інтерфейсі і те, як чек-лист стає прогнозом.</span></figcaption>
-          </figure>
-          <p><span class="only-en">Then the structure: where people go and what the product stores. The shipper is the center, and a lane became its own object, so lanes can be counted and shown on a map.</span><span class="only-ua">Далі структура: куди йдуть люди і що зберігає продукт. У центрі — вантажовідправник, а маршрут став окремим об’єктом, тож маршрути можна рахувати й показувати на карті.</span></p>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/structure.webp" width="1600" height="1748" alt="A sitemap tree from sign-in to every screen, and an object model with ten objects around the shipper" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The sitemap and the object model. Dashed boxes are features the spec planned for MVP 2.</span><span class="only-ua">Карта сайту й модель об’єктів. Пунктирні блоки — функції, які специфікація планувала на MVP 2.</span></figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">How I worked inside a fixed price.</span><span class="only-ua">Як я працював у межах фіксованої ціни.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <ol class="case-list case-list--numbered">
-            <li><div><strong><span class="only-en">Specification to flows</span><span class="only-ua">Від специфікації до флоу</span></strong><span class="case-list__sub"><span class="only-en">I turned the client’s document into a mind map of flows before opening Figma.</span><span class="only-ua">Я перетворив документ клієнта на ментальну карту флоу, перш ніж відкрити Figma.</span></span></div></li>
-            <li><div><strong><span class="only-en">A board with a done state</span><span class="only-ua">Дошка зі станом «готово»</span></strong><span class="case-list__sub"><span class="only-en">Every screen was a card on a board with a clear done state.</span><span class="only-ua">Кожен екран був карткою на дошці з чітким станом «готово».</span></span></div></li>
-            <li><div><strong><span class="only-en">States, not only screens</span><span class="only-ua">Стани, а не лише екрани</span></strong><span class="case-list__sub"><span class="only-en">Empty states were designed together with the main flow, so developers did not have to invent them.</span><span class="only-ua">Порожні стани я проєктував разом з основним флоу, щоб розробникам не довелося їх вигадувати.</span></span></div></li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">What I designed.</span><span class="only-ua">Що я спроєктував.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/dashboard.webp" width="1600" height="1000" alt="Dashboard with a pipeline bar by stage, a list of new shippers to claim and today’s tasks" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The dashboard answers three questions: how the pipeline looks, which new shippers arrived today, and whom to call next.</span><span class="only-ua">Дашборд відповідає на три питання: який вигляд має воронка, які нові вантажовідправники надійшли сьогодні й кому дзвонити далі.</span></figcaption>
-          </figure>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/leads.webp" width="1600" height="1000" alt="Shipper leads table with three selected rows and a bulk action bar at the bottom" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">Shipper leads: freight, lane, stage and revenue in one row. Bulk actions appear when rows are selected.</span><span class="only-ua">Ліди-вантажовідправники: вантаж, маршрут, етап і виручка в одному рядку. Масові дії з’являються, коли вибрано рядки.</span></figcaption>
-          </figure>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/lead-page.webp" width="1600" height="1000" alt="Lead page with a stage stepper, the next task, an activity timeline and a side column with contact, shipping profile and deal" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The lead page: deal stage, the next step, call history and the shipper’s lanes in one place.</span><span class="only-ua">Сторінка ліда: етап угоди, наступний крок, історія дзвінків і маршрути вантажовідправника в одному місці.</span></figcaption>
-          </figure>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/new-task.webp" width="1600" height="1000" alt="A New task side panel open over the lead page, with type, title, due date, reminder, assignee and notes" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">A new task opens in a side panel, so the sales rep stays on the lead.</span><span class="only-ua">Нова задача відкривається в бічній панелі, тож продавець лишається на сторінці ліда.</span></figcaption>
-          </figure>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/tasks.webp" width="1600" height="1000" alt="Tasks list with an Overdue group and a Today group, one task checked off and a toast with Undo" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">Tasks: overdue first, then today. A completed task can be undone from the toast.</span><span class="only-ua">Задачі: спершу прострочені, потім сьогоднішні. Виконану задачу можна повернути кнопкою в сповіщенні.</span></figcaption>
-          </figure>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/lane-map.webp" width="1600" height="1000" alt="A map of the United States with freight lanes drawn as arcs and a ranked list of top lanes" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The lane map: where freight moves, with the busiest lanes ranked by loads per week.</span><span class="only-ua">Карта маршрутів: куди рухається вантаж і які маршрути найзавантаженіші за кількістю рейсів на тиждень.</span></figcaption>
-          </figure>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/first-run.webp" width="1600" height="1000" alt="First-run dashboard with a truck illustration, a three-step explanation and the brokerage’s lanes" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The first-run screen: what a new brokerage sees before the first leads arrive.</span><span class="only-ua">Екран першого запуску: що бачить нова брокерська компанія до появи перших лідів.</span></figcaption>
-          </figure>
-          <p><span class="only-en">Also in scope: documents in folders, team management, a settings screen for roles and permissions, and sign-in and sign-up flows. Company names, people and numbers on the screens are sample data.</span><span class="only-ua">Також в обсязі: документи в теках, керування командою, екран налаштувань ролей і прав, флоу входу й реєстрації. Назви компаній, люди й числа на екранах — демо-дані.</span></p>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">Motion, specified.</span><span class="only-ua">Анімації зі специфікацією.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <p><span class="only-en">Three interactions carry state: the bulk action bar, the side panel and the toast. Each one runs 200–240 ms with an ease-out curve. With reduced motion turned on, they cross-fade and do not move.</span><span class="only-ua">Три взаємодії передають стан: панель масових дій, бічна панель і сповіщення. Кожна триває 200–240 мс із кривою ease-out. Якщо ввімкнено зменшення руху, вони плавно проявляються й не рухаються.</span></p>
-          <figure class="case-image">
-            <video src="../../assets/cases/freight-genie/interactions.mp4" poster="../../assets/cases/freight-genie/interactions-poster.webp" width="1440" height="900" controls muted loop playsinline preload="metadata" aria-label="Screen recording of three interactions: bulk action bar, New task side panel and a toast"></video>
-            <figcaption class="case-image__caption"><span class="only-en">The prototype: selecting rows, opening the New task panel, completing a task.</span><span class="only-ua">Прототип: вибір рядків, відкриття панелі нової задачі, виконання задачі.</span></figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">A UI kit built in layers.</span><span class="only-ua">UI kit, збудований шарами.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <p><span class="only-en">The kit follows atomic design: tokens and icons first, then atoms, molecules and organisms. Every component has its states — default, hover, focus, error, disabled — and notes for developers on behavior.</span><span class="only-ua">Набір побудовано за атомарним підходом: спершу токени й іконки, потім атоми, молекули й організми. Кожен компонент має стани — звичайний, наведення, фокус, помилка, вимкнений — і нотатки для розробників про поведінку.</span></p>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/ui-kit.webp" width="1600" height="1280" alt="UI kit overview: color scales, typography, icons, buttons, text fields in six states, select, badges, toasts and table rows" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The UI kit on one screen: foundations, components in all states and developer notes.</span><span class="only-ua">UI kit на одному екрані: основи, компоненти в усіх станах і нотатки для розробників.</span></figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">The service behind the screens.</span><span class="only-ua">Сервіс за екранами.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <p><span class="only-en">Freight Genie is more than a CRM: its team hand-picks shipper leads for each brokerage every day. I mapped the service from the client’s spec and the public site, to see where the CRM has to pick up the work.</span><span class="only-ua">Freight Genie — це більше, ніж CRM: його команда щодня вручну добирає ліди-вантажовідправників для кожної брокерської компанії. Я описав сервіс за специфікацією клієнта й публічним сайтом, щоб побачити, де CRM має підхопити роботу.</span></p>
-          <figure class="case-image">
-            <img src="../../assets/cases/freight-genie/service-blueprint.webp" width="1600" height="1312" alt="Service blueprint with seven steps and five lanes: touchpoints, broker sales rep, CRM, Freight Genie team and systems" loading="lazy" decoding="async">
-            <figcaption class="case-image__caption"><span class="only-en">The service blueprint, and what the design adds to the spec at each step.</span><span class="only-ua">Service blueprint і те, що дизайн додає до специфікації на кожному кроці.</span></figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">Outcome.</span><span class="only-ua">Результат.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <div class="outcomes">
-            <div><span class="metric__value">5★</span><span class="metric__label"><span class="only-en">Upwork review</span><span class="only-ua">Відгук на Upwork</span></span></div>
-            <div><span class="metric__value">3</span><span class="metric__label"><span class="only-en">User roles</span><span class="only-ua">Ролі користувачів</span></span></div>
-            <div><span class="metric__value">1</span><span class="metric__label"><span class="only-en">Fixed-price delivery</span><span class="only-ua">Виконано за фіксовану ціну</span></span></div>
-          </div>
-          <p class="outcomes__note"><span class="only-en">The client closed the contract with a five-star review — my first on the platform. The full scope was delivered within the agreed price.</span><span class="only-ua">Клієнт закрив контракт із п’ятизірковим відгуком — моїм першим на платформі. Повний обсяг я виконав у межах погодженої ціни.</span></p>
-        </div>
-      </section>
-
-      <section class="case-section">
-        <div class="case-section__head">
-          <h2 class="case-section__title"><span class="only-en">What I carry into multi-role products today.</span><span class="only-ua">Що я переношу в багаторольові продукти сьогодні.</span></h2>
-        </div>
-        <div class="case-section__body">
-          <ul class="case-list case-list--bullets">
-            <li><div><strong><span class="only-en">Permissions first</span><span class="only-ua">Спершу права доступу</span></strong><span class="case-list__sub"><span class="only-en">In a multi-role product, the permission map is the real information architecture. Draw it before any screen.</span><span class="only-ua">У багаторольовому продукті карта прав доступу і є справжньою інформаційною архітектурою. Намалюй її до будь-якого екрана.</span></span></div></li>
-            <li><div><strong><span class="only-en">A pipeline is a state machine</span><span class="only-ua">Воронка — це скінченний автомат</span></strong><span class="case-list__sub"><span class="only-en">Every screen in a CRM is a place where a status changes. Designing the statuses first makes the screens obvious.</span><span class="only-ua">Кожен екран CRM — це місце, де змінюється статус. Якщо спершу спроєктувати статуси, екрани стають очевидними.</span></span></div></li>
-            <li><div><strong><span class="only-en">Fixed price needs a visible scope</span><span class="only-ua">Фіксованій ціні потрібен видимий обсяг</span></strong><span class="case-list__sub"><span class="only-en">A board with a done state protects both sides better than any contract clause.</span><span class="only-ua">Дошка зі станом «готово» захищає обидві сторони краще за будь-який пункт контракту.</span></span></div></li>
-          </ul>
-        </div>
-      </section>
-
+      <p class="fg-note"><span class="only-en">Also in scope: documents in folders, team management, a settings screen for roles and permissions, and sign-in and sign-up flows.</span><span class="only-ua">Також в обсязі: документи в теках, керування командою, екран налаштувань ролей і прав, флоу входу й реєстрації.</span></p>
+    </div></section>
+    <section class="fg-band"><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Design system</span><span class="only-ua">Дизайн-система</span></p><h2><span class="only-en">A UI kit built in layers.</span><span class="only-ua">UI kit, збудований шарами.</span></h2><p class="fg-lede"><span class="only-en">The kit follows atomic design: tokens and icons first, then atoms, molecules and organisms. Every component has its states — default, hover, focus, error, disabled — and notes for developers on behavior.</span><span class="only-ua">Набір побудовано за атомарним підходом: спершу токени й іконки, потім атоми, молекули й організми. Кожен компонент має стани — звичайний, наведення, фокус, помилка, вимкнений — і нотатки для розробників про поведінку.</span></p>
+      <ol class="fg-layers"><li style="--k:0"><b>Tokens</b><span><span class="only-en">colour, type, spacing</span><span class="only-ua">колір, шрифт, відступи</span></span></li><li style="--k:1"><b>Atoms</b><span><span class="only-en">buttons, fields, badges</span><span class="only-ua">кнопки, поля, бейджі</span></span></li><li style="--k:2"><b>Molecules</b><span><span class="only-en">rows, toasts, selects</span><span class="only-ua">рядки, сповіщення, селекти</span></span></li><li style="--k:3"><b>Organisms</b><span><span class="only-en">tables, panels, shell</span><span class="only-ua">таблиці, панелі, оболонка</span></span></li></ol>
+      <figure class="fg-fig fg-fig--wide"><img src="../../assets/cases/freight-genie/ui-kit.webp" width="1600" height="1280" alt="UI kit overview: color scales, typography, icons, buttons, text fields in six states, select, badges, toasts and table rows" loading="lazy" decoding="async"><figcaption><span class="only-en">The UI kit on one screen: foundations, components in all states and developer notes.</span><span class="only-ua">UI kit на одному екрані: основи, компоненти в усіх станах і нотатки для розробників.</span></figcaption></figure>
+    </div></section>
+    <section><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Service</span><span class="only-ua">Сервіс</span></p><h2><span class="only-en">The service behind the screens.</span><span class="only-ua">Сервіс за екранами.</span></h2><p class="fg-lede"><span class="only-en">Freight Genie is more than a CRM: its team hand-picks shipper leads for each brokerage every day. I mapped the service from the client’s spec and the public site, to see where the CRM has to pick up the work.</span><span class="only-ua">Freight Genie — це більше, ніж CRM: його команда щодня вручну добирає ліди-вантажовідправників для кожної брокерської компанії. Я описав сервіс за специфікацією клієнта й публічним сайтом, щоб побачити, де CRM має підхопити роботу.</span></p><p class="fg-src"><span class="only-en">Source: client spec and the product’s public site.</span><span class="only-ua">Джерело: специфікація клієнта й публічний сайт продукту.</span></p>
+      <h3 class="fg-h3"><span class="only-en">Service blueprint</span><span class="only-ua">Service blueprint</span></h3>
+      <p class="fg-sub"><span class="only-en">Seven steps, five lanes.</span><span class="only-ua">Сім кроків, п’ять доріжок.</span></p>
+      <div class="fg-table-wrap fg-table-wrap--bp"><table class="fg-bp"><thead><tr><td></td><th scope="col"><small><span class="only-en">Step 1</span><span class="only-ua">Крок 1</span></small><span class="only-en">Set up lanes</span><span class="only-ua">Налаштувати маршрути</span></th><th scope="col"><small><span class="only-en">Step 2</span><span class="only-ua">Крок 2</span></small><span class="only-en">Find shippers</span><span class="only-ua">Знайти вантажо&shy;відправників</span></th><th scope="col"><small><span class="only-en">Step 3</span><span class="only-ua">Крок 3</span></small><span class="only-en">Daily delivery</span><span class="only-ua">Щоденна доставка</span></th><th scope="col"><small><span class="only-en">Step 4</span><span class="only-ua">Крок 4</span></small><span class="only-en">Claim &amp; call</span><span class="only-ua">Забрати й подзвонити</span></th><th scope="col"><small><span class="only-en">Step 5</span><span class="only-ua">Крок 5</span></small><span class="only-en">Work the deal</span><span class="only-ua">Вести угоду</span></th><th scope="col"><small><span class="only-en">Step 6</span><span class="only-ua">Крок 6</span></small><span class="only-en">Close</span><span class="only-ua">Закрити</span></th><th scope="col"><small><span class="only-en">Step 7</span><span class="only-ua">Крок 7</span></small><span class="only-en">Grow</span><span class="only-ua">Рости</span></th></tr></thead><tbody><tr class="fg-bp__r fg-bp__r--touch"><th scope="row"><span class="only-en">Touchpoints</span><span class="only-ua">Точки контакту</span></th><td><div><span class="only-en">Needs assessment</span><span class="only-ua">Оцінка потреб</span></div></td><td></td><td><div><span class="only-en">Email with the day’s shippers</span><span class="only-ua">Лист із вантажо&shy;відправниками дня</span></div></td><td><div><span class="only-en">Lead page, phone</span><span class="only-ua">Сторінка ліда, телефон</span></div></td><td><div><span class="only-en">Tasks, emails, quotes</span><span class="only-ua">Задачі, листи, пропозиції</span></div></td><td><div><span class="only-en">Rate confirmation</span><span class="only-ua">Rate confirmation</span></div></td><td><div><span class="only-en">Lane map, reports</span><span class="only-ua">Карта маршрутів, звіти</span></div></td></tr><tr class="fg-bp__r fg-bp__r--rep"><th scope="row"><span class="only-en">Broker sales rep</span><span class="only-ua">Продавець брокера</span></th><td><div><span class="only-en">Shares pickup and delivery areas</span><span class="only-ua">Називає зони заванта&shy;ження й доставки</span></div></td><td></td><td><div><span class="only-en">Opens the day’s 1–5 new shippers</span><span class="only-ua">Відкриває 1–5 нових вантажо&shy;відправників дня</span></div></td><td><div><span class="only-en">Claims one, calls, logs the call</span><span class="only-ua">Забирає одного, дзвонить, записує дзвінок</span></div></td><td><div><span class="only-en">Follows up, quotes, ticks the checklist</span><span class="only-ua">Нагадує, дає ціну, відмічає чек-лист</span></div></td><td><div><span class="only-en">Sends rate con, moves the first load</span><span class="only-ua">Надсилає rate con, везе перший вантаж</span></div></td><td><div><span class="only-en">Books repeat loads</span><span class="only-ua">Бронює повторні рейси</span></div></td></tr><tr class="fg-bp__line"><th colspan="8"><span><span class="only-en">Line of interaction</span><span class="only-ua">Лінія взаємодії</span></span></th></tr><tr class="fg-bp__r fg-bp__r--crm"><th scope="row"><span class="only-en">CRM</span><span class="only-ua">CRM</span></th><td><div><span class="only-en">“Your lanes” screen</span><span class="only-ua">Екран «Your lanes»</span></div></td><td></td><td><div><span class="only-en">“New shippers today” panel</span><span class="only-ua">Панель «New shippers today»</span></div></td><td><div><span class="only-en">Claim, Call, call note</span><span class="only-ua">Claim, Call, нотатка дзвінка</span></div></td><td><div><span class="only-en">Stage stepper, checklist, reminders</span><span class="only-ua">Степер етапів, чек-лист, нагадування</span></div></td><td><div><span class="only-en">Stage: Contract sent → Won</span><span class="only-ua">Етап: Contract sent → Won</span></div></td><td><div><span class="only-en">Lane map, forecast</span><span class="only-ua">Карта маршрутів, прогноз</span></div></td></tr><tr class="fg-bp__line"><th colspan="8"><span><span class="only-en">Line of visibility</span><span class="only-ua">Лінія видимості</span></span></th></tr><tr class="fg-bp__r fg-bp__r--team"><th scope="row"><span class="only-en">Freight Genie team</span><span class="only-ua">Команда Freight Genie</span></th><td><div><span class="only-en">Needs assessment: pickup and delivery areas</span><span class="only-ua">Оцінка потреб: зони заванта&shy;ження й доставки</span></div></td><td><div><span class="only-en">Team hand-picks shippers on those lanes</span><span class="only-ua">Команда вручну добирає вантажо&shy;відправників на цих маршрутах</span></div></td><td><div><span class="only-en">Shippers vetted before sending</span><span class="only-ua">Вантажовідправників перевіряють перед надсиланням</span></div></td><td></td><td></td><td></td><td><div><span class="only-en">Dedicated account manager (Premium plan)</span><span class="only-ua">Окремий менеджер акаунта (тариф Premium)</span></div></td></tr><tr class="fg-bp__r fg-bp__r--sys"><th scope="row"><span class="only-en">Systems</span><span class="only-ua">Системи</span></th><td><div><span class="only-en">Lane profile</span><span class="only-ua">Профіль маршрутів</span></div></td><td><div><span class="only-en">Shipper database</span><span class="only-ua">База вантажо&shy;відправників</span></div></td><td><div><span class="only-en">Daily delivery by email</span><span class="only-ua">Щоденна доставка листом</span></div></td><td><div><span class="only-en">Activity log</span><span class="only-ua">Журнал активності</span></div></td><td><div><span class="only-en">Email integration (MVP 2)</span><span class="only-ua">Інтеграція пошти (MVP 2)</span></div></td><td><div><span class="only-en">Documents</span><span class="only-ua">Документи</span></div></td><td><div><span class="only-en">Analytics</span><span class="only-ua">Аналітика</span></div></td></tr></tbody></table></div>
+      <h3 class="fg-h3"><span class="only-en">What the design adds to the spec</span><span class="only-ua">Що дизайн додає до специфікації</span></h3>
+      <p class="fg-sub"><span class="only-en">Gap in the spec, and the design answer, for each step.</span><span class="only-ua">Прогалина в специфікації і відповідь дизайну для кожного кроку.</span></p>
+      <ol class="fg-gaps"><li><span class="fg-gap__n"><span class="only-en">Step 1</span><span class="only-ua">Крок 1</span></span><span class="fg-gap__a"><span class="only-en">Lanes are free-text fields</span><span class="only-ua">Маршрути — поля з вільним текстом</span></span><span class="fg-gap__b"><span class="only-en">Lane becomes an object</span><span class="only-ua">Маршрут стає об’єктом</span></span></li><li><span class="fg-gap__n"><span class="only-en">Step 2</span><span class="only-ua">Крок 2</span></span><span class="fg-gap__a"><span class="only-en">No lane profile for the brokerage</span><span class="only-ua">Немає профілю маршрутів брокера</span></span><span class="fg-gap__b"><span class="only-en">Brokerage lanes saved in the CRM</span><span class="only-ua">Маршрути брокера збережено в CRM</span></span></li><li><span class="fg-gap__n"><span class="only-en">Step 3</span><span class="only-ua">Крок 3</span></span><span class="fg-gap__a"><span class="only-en">Leads added by hand; CSV import only in MVP 2</span><span class="only-ua">Ліди додають вручну; імпорт CSV лише в MVP 2</span></span><span class="fg-gap__b"><span class="only-en">Delivered into the CRM with Claim</span><span class="only-ua">Доставлено в CRM з кнопкою Claim</span></span></li><li><span class="fg-gap__n"><span class="only-en">Step 4</span><span class="only-ua">Крок 4</span></span><span class="fg-gap__a"><span class="only-en">Any rep can work any lead</span><span class="only-ua">Будь-який продавець може вести будь-який лід</span></span><span class="fg-gap__b"><span class="only-en">Claim + “own leads” rule</span><span class="only-ua">Claim + правило «лише свої ліди»</span></span></li><li><span class="fg-gap__n"><span class="only-en">Step 5</span><span class="only-ua">Крок 5</span></span><span class="fg-gap__a"><span class="only-en">Confidence is a separate field</span><span class="only-ua">Confidence — окреме поле</span></span><span class="fg-gap__b"><span class="only-en">Confidence from the checklist</span><span class="only-ua">Confidence з чек-листа</span></span></li><li><span class="fg-gap__n"><span class="only-en">Step 6</span><span class="only-ua">Крок 6</span></span><span class="fg-gap__a is-ok"><span class="only-en">Covered by the spec</span><span class="only-ua">Покрито специфікацією</span></span><span class="fg-gap__b"><span class="only-en">Stage change logged in activity</span><span class="only-ua">Зміна етапу записується в активність</span></span></li><li><span class="fg-gap__n"><span class="only-en">Step 7</span><span class="only-ua">Крок 7</span></span><span class="fg-gap__a"><span class="only-en">No view of where freight moves</span><span class="only-ua">Не видно, куди рухається вантаж</span></span><span class="fg-gap__b"><span class="only-en">Lane map with volumes</span><span class="only-ua">Карта маршрутів з обсягами</span></span></li></ol>
+      <p class="fg-callout fg-callout--info"><span class="only-en">The biggest addition is step 3. The public site describes daily lead delivery by email; the spec only had manual adding and a planned CSV import. In the design the day’s shippers appear in the CRM with a Claim button, so the rep can start calling right away.</span><span class="only-ua">Найбільше доповнення — крок 3. Публічний сайт описує щоденну доставку лідів листом; специфікація мала лише ручне додавання й запланований імпорт CSV. У дизайні вантажовідправники дня з’являються в CRM з кнопкою Claim, тож продавець може одразу дзвонити.</span></p>
+    </div></section>
+    <section class="fg-band"><div class="wrap">
+      <p class="fg-eb"><span class="only-en">Outcome</span><span class="only-ua">Результат</span></p><h2><span class="only-en">A five-star review from the client.</span><span class="only-ua">П’ятизірковий відгук від клієнта.</span></h2><p class="fg-lede"><span class="only-en">The client closed the contract with a five-star review — my first on the platform. The full scope of the spec was delivered.</span><span class="only-ua">Клієнт закрив контракт із п’ятизірковим відгуком — моїм першим на платформі. Я виконав повний обсяг специфікації.</span></p>
+      <div class="fg-nums"><div><b>5★</b><span><span class="only-en">Upwork review</span><span class="only-ua">Відгук на Upwork</span></span></div><div><b>3</b><span><span class="only-en">User roles</span><span class="only-ua">Ролі користувачів</span></span></div></div>
+      <h3 class="fg-h3"><span class="only-en">What I carry into multi-role products today</span><span class="only-ua">Що я переношу в багаторольові продукти сьогодні</span></h3>
+      <div class="fg-lessons"><article><h4><span class="only-en">Permissions first</span><span class="only-ua">Спершу права доступу</span></h4><p><span class="only-en">In a multi-role product, the permission map is the real information architecture. Draw it before any screen.</span><span class="only-ua">У багаторольовому продукті карта прав доступу і є справжньою інформаційною архітектурою. Намалюй її до будь-якого екрана.</span></p></article><article><h4><span class="only-en">A pipeline is a state machine</span><span class="only-ua">Воронка — це скінченний автомат</span></h4><p><span class="only-en">Every screen in a CRM is a place where a status changes. Designing the statuses first makes the screens obvious.</span><span class="only-ua">Кожен екран CRM — це місце, де змінюється статус. Якщо спершу спроєктувати статуси, екрани стають очевидними.</span></p></article><article><h4><span class="only-en">Scope needs to be visible</span><span class="only-ua">Обсяг має бути видимим</span></h4><p><span class="only-en">A board with a done state protects both sides better than any contract clause.</span><span class="only-ua">Дошка зі станом «готово» захищає обидві сторони краще за будь-який пункт контракту.</span></p></article></div>
+    </div></section>
+</div>
+    <div class="wrap fg-related">
       <section class="case-section">
         <div class="case-section__head">
           <h2 class="case-section__title" data-i18n="case.related.also">If you liked this, also see…</h2>
@@ -262,6 +399,6 @@
   </footer>
 
   <script src="../../scripts/anim.js?v=e52e3bde" defer></script>
-  <script src="../../scripts/i18n.js?v=6f6fa12e" defer></script>
+  <script src="../../scripts/i18n.js?v=b81fcd14" defer></script>
 </body>
 </html>
