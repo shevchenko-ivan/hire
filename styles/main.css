@@ -1276,5 +1276,9 @@ html:not([lang="uk"]) .only-ua, html[lang="uk"] .only-en { display: none !import
 
 /* Upwork badge: never squeezed by the facts row; keep "4 reviews" on one line */
 .fact--cert .cert { flex-shrink: 0; }
+@media (max-width: 760px) {
+  .fact--cert { flex-direction: column; align-items: flex-start; justify-content: flex-start; }
+  .fact--cert .cert img { width: 64px; }
+}
 .cert img { width: 84px; }
 .nowrap { white-space: nowrap; }

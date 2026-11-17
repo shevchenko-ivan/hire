@@ -283,7 +283,7 @@ const TRANSLATIONS = {
     'case.eyebrow.learningsSoFar': 'Уроки поки що',
     'case.eyebrow.related':    'Дотичні',
 
-    'case.related.also':       'Якщо сподобалось, подивись також…',
+    'case.related.also':       'Інші кейси',
 
     // -- Certificates block (variations)
     'certs.title':             'Постійно вчуся.',
